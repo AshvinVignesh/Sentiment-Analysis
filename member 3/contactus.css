@@ -1,0 +1,632 @@
+.contactus-contactus {
+    width: 100%;
+    height: 1589px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+    align-items: center;
+    border-color: rgba(0, 0, 0, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(11, 32, 223, 1) 25%, rgba(66, 82, 229, 1) 45%, rgba(138, 145, 211, 1) 63%, rgba(255, 255, 255, 0.6800000071525574) 81%, rgba(255, 255, 255, 1) 100%);
+  }
+  .contactus-footer {
+    top: 1306px;
+    left: 29px;
+    width: 1728px;
+    height: 307px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(24, 30, 81, 1);
+  }
+  .contactus-legal {
+    top: 29.62451171875px;
+    left: 697.9998779296875px;
+    width: 222.00001525878906px;
+    height: 199.0784912109375px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .contactus-text {
+    top: 75.44033813476562px;
+    left: 0.000045211229007691145px;
+    color: rgba(0, 0, 0, 1);
+    width: 222px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .contactus-text02 {
+    top: 124.68606567382812px;
+    left: 0.000045211229007691145px;
+    color: rgba(0, 0, 0, 1);
+    width: 222px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .contactus-text04 {
+    top: 169.7406768798828px;
+    left: 0.000045211229007691145px;
+    color: rgba(0, 0, 0, 1);
+    width: 222px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .contactus-text06 {
+    left: 35.99995422363281px;
+    color: rgba(0, 0, 0, 1);
+    width: 150px;
+    height: auto;
+    position: absolute;
+    font-size: 35px;
+    align-self: auto;
+    font-style: Black;
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 900;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .contactus-menu {
+    top: 30px;
+    left: 267.0000305175781px;
+    width: 193px;
+    height: 199.337890625px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .contactus-text08 {
+    top: 124px;
+    left: 21px;
+    color: rgba(0, 0, 0, 1);
+    width: 150px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .contactus-text10 {
+    top: 170px;
+    color: rgba(0, 0, 0, 1);
+    width: 193px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .contactus-text15 {
+    top: 75px;
+    left: 21px;
+    color: rgba(0, 0, 0, 1);
+    width: 150px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .contactus-text17 {
+    left: 50px;
+    color: rgba(0, 0, 0, 1);
+    width: 93px;
+    height: auto;
+    position: absolute;
+    font-size: 35px;
+    align-self: auto;
+    font-style: Black;
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 900;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .contactus-text19 {
+    top: 29.62451171875px;
+    left: 1242px;
+    color: rgba(0, 0, 0, 1);
+    width: 217px;
+    height: auto;
+    position: absolute;
+    font-size: 35px;
+    align-self: auto;
+    font-style: Black;
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 900;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .contactus-navbar {
+    top: 69px;
+    left: 126px;
+    width: 1488px;
+    height: 143px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .contactus-logo {
+    display: flex;
+    position: relative;
+    box-sizing: content-box;
+    align-items: center;
+    border-color: transparent;
+    margin-right: 25px;
+  }
+  .contactus-ellipse1 {
+    width: 154px;
+    height: 143px;
+    position: relative;
+    border-color: rgba(0, 0, 0, 1);
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 0px;
+  }
+  .contactus-text21 {
+    color: rgba(20, 240, 255, 1);
+    width: 253px;
+    height: auto;
+    font-size: 40px;
+    align-self: auto;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+    font-style: ExtraBold;
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 800;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .contactus-frame1 {
+    width: 686px;
+    height: 115px;
+    display: flex;
+    padding: 5px 10px;
+    position: relative;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+    box-sizing: content-box;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 25px;
+    justify-content: center;
+  }
+  .contactus-text23 {
+    color: rgba(255, 255, 255, 1);
+    width: 160px;
+    height: auto;
+    font-size: 30px;
+    align-self: auto;
+    font-style: ExtraBold;
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 800;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 10px;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .contactus-text25 {
+    color: rgba(255, 255, 255, 1);
+    width: 160px;
+    height: auto;
+    font-size: 30px;
+    align-self: auto;
+    font-style: ExtraBold;
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 800;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 10px;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .contactus-text27 {
+    color: rgba(236, 164, 243, 1);
+    width: 160px;
+    height: auto;
+    font-size: 30px;
+    align-self: auto;
+    font-style: ExtraBold;
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 800;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .contactus-login {
+    width: 160px;
+    height: 60px;
+    display: flex;
+    position: relative;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 25px;
+  }
+  .contactus-rectangle2 {
+    top: 0px;
+    left: 0px;
+    width: 160px;
+    height: 60px;
+    position: absolute;
+    box-sizing: content-box;
+    border-color: rgba(168, 189, 189, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+  }
+  .contactus-text29 {
+    top: 11px;
+    left: 5px;
+    color: rgba(255, 255, 255, 1);
+    width: 155px;
+    height: auto;
+    position: absolute;
+    font-size: 28px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .contactus-signup {
+    width: 160px;
+    height: 60px;
+    display: flex;
+    padding: 0;
+    position: relative;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+    background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%);
+  }
+  .contactus-text31 {
+    top: 10.5882568359375px;
+    left: 7.39495849609375px;
+    color: rgba(255, 255, 255, 1);
+    width: 145px;
+    height: auto;
+    position: absolute;
+    font-size: 28px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .contactus-submit {
+    top: 1072px;
+    left: 670px;
+    width: 420px;
+    height: 68px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+    background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%);
+  }
+  .contactus-text33 {
+    top: 11px;
+    left: 9px;
+    color: rgba(255, 255, 255, 1);
+    width: 379px;
+    height: auto;
+    position: absolute;
+    font-size: 35px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .contactus-frame2 {
+    top: 143px;
+    left: 1646px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .contactus-frame3 {
+    top: 1072px;
+    left: 410.5px;
+    width: 145px;
+    height: 136px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .contactus-text35 {
+    top: 315px;
+    left: 601px;
+    color: rgba(255, 255, 255, 1);
+    width: 479px;
+    height: auto;
+    position: absolute;
+    font-size: 64px;
+    align-self: auto;
+    font-style: Light;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 300;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .contactus-name {
+    top: 536px;
+    left: 308px;
+    width: 532px;
+    height: 77px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(217, 217, 217, 1);
+  }
+  .contactus-text37 {
+    top: 13px;
+    left: 27px;
+    color: rgba(0, 0, 0, 1);
+    width: 115px;
+    height: auto;
+    position: absolute;
+    font-size: 35px;
+    align-self: auto;
+    font-style: ExtraLight;
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 200;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .contactus-email {
+    top: 536px;
+    left: 893px;
+    width: 532px;
+    height: 77px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .contactus-group1 {
+    top: 0px;
+    left: 0px;
+    width: 532px;
+    height: 77px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(217, 217, 217, 1);
+  }
+  .contactus-text39 {
+    top: 15px;
+    left: 28px;
+    color: rgba(0, 0, 0, 1);
+    width: 115px;
+    height: auto;
+    position: absolute;
+    font-size: 35px;
+    align-self: auto;
+    font-style: ExtraLight;
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 200;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .contactus-feedback {
+    top: 676px;
+    left: 309px;
+    width: 1120px;
+    height: 304px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(217, 217, 217, 1);
+  }
+  .contactus-text41 {
+    top: 24px;
+    left: 24px;
+    color: rgba(0, 0, 0, 1);
+    width: 228px;
+    height: auto;
+    position: absolute;
+    font-size: 35px;
+    align-self: auto;
+    font-style: ExtraLight;
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 200;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
