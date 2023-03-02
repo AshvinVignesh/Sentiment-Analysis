@@ -250,6 +250,7 @@
     border-style: solid;
     border-width: 1px;
     margin-right: 0px;
+    border-radius: 200px;
   }
   .contactus-text21 {
     color: rgba(20, 240, 255, 1);
@@ -257,7 +258,7 @@
     height: auto;
     font-size: 40px;
     align-self: auto;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+ 
     font-style: ExtraBold;
     text-align: center;
     font-family: Outfit;
@@ -274,7 +275,7 @@
     display: flex;
     padding: 5px 10px;
     position: relative;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+
     box-sizing: content-box;
     align-items: center;
     flex-shrink: 0;
@@ -335,7 +336,7 @@
     height: 60px;
     display: flex;
     position: relative;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+    
     align-items: flex-start;
     flex-shrink: 0;
     border-color: transparent;
