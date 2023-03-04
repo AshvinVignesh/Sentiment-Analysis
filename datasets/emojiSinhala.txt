@@ -1,0 +1,69 @@
+En,sinhala
+grin,සිනහව
+face,මුහුණ
+with,සමග
+tear,කඳුළු
+of, වල
+joy,සතුට
+big,මහා
+eye,ඇස
+smile,සිනහව
+squint,ඇස් දිලිසෙනවා
+halo,හලෝ
+wink,ඇසිපිය හෙළන්න
+savor,රස විඳින්න
+food,ආහාර
+reliev,සහනය
+heartey,හෘදයාංගම
+sunglass,හිරු වීදුරු
+sun,හිරු
+blow,පිඹීම
+a ,ඒ
+kiss,හාදුවක්
+tongue,දිව
+cat,බළලා
+red,රතු
+heart,හදවත
+two,දෙක
+beam,කදම්බ
+suit,ඇඳුම
+grimac,
+angri,කෝපයෙන්
+neutral,මධ්යස්ථ
+expressionless,ප්රකාශ රහිත
+pout,පුට්
+confound,ව්යාකූල කරයි
+steam,වාෂ්ප
+from,සිට
+nose,නාසය
+pile,ගොඩවල්
+poo,චූ කරන්න
+sweat,දහඩිය
+frown,නළල රැලි ගනියි
+mouth,මුඛය
+scream,කෑගහනවා
+fear,බිය
+anxious,කනස්සල්ලෙන්
+pensiv,කල්පනාකාරී
+weari,අඳිනවා
+confus,ව්යාකූල කරයි
+tired,මහන්සියි
+cri,අඬනවා
+sad,දුක
+reliev,සහනය
+sleepi,නිදාගන්න
+downcast,පහතට වැටී ඇත
+loudli,හයියෙන්
+broken,කැඩුණු
+flush,ෆ්ලෂ්
+hush,නිහඬයි
+knockedout,තට්ටු කළා
+astonish,විස්මිතයි
+
+
+
+
+
+
+
+
