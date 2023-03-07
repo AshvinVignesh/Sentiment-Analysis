@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- <html lang="en"> -->
 <head>
-    <meta charset="UTF-8">
+    <!-- <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>mainpage</title>
-    <link rel="stylesheet" type="text/css" href='./mainpage.css'>
+    <!-- <link rel="stylesheet"  href='/static/mainpage.css'> -->
+    <link rel="stylesheet"  href="{{ url_for('static', filename='mainpage.css') }}">
 
 </head>
 <body>
@@ -23,10 +24,10 @@
                 <span class="mainpage-text"><span>D3CODEIT!</span></span>
               </div>
               <div class="mainpage-frame1">
-                  <a href="mainpage.html">
+                  <a href="{{ url_for('mainpage.html')}}">
                       <span class="mainpage-text02"><span>Home</span></span>
                   </a>
-                <a href="aboutus.html">
+                <a href="{{ url_for('aboutus.html')}}">
                     <span class="mainpage-text04"><span>About us</span></span>
                   </a>
                 <a href="contactus.html">
