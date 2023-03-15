@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"  href="{{ url_for('static', filename='css/contactus.css') }}">
+  <title>contactus</title>
+</head>
+<body>
+  <div>
+      
+      <div>
+        <div class="contactus-contactus">
+          <div class="contactus-footer">
+            <div class="contactus-legal">
+              <span class="contactus-text"><span>General info</span></span>
+              <span class="contactus-text02"><span>Privacy policy</span></span>
+              <span class="contactus-text04"><span>Terms and condition</span></span>
+              <span class="contactus-text06"><span>Legal</span></span>
+            </div>
+            <div class="contactus-menu">
+              <span class="contactus-text08"><span>About us</span></span>
+              <span class="contactus-text10">
+                <span>
+                  <span>Contact us</span>
+                  <br />
+                  <span></span>
+                </span>
+              </span>
+              <span class="contactus-text15"><span>Home</span></span>
+              <span class="contactus-text17"><span>Menu</span></span>
+            </div>
+            <span class="contactus-text19"><span>Follow us <br><br></span>
+            
+              <img src="../static/followusicons.png/">
+            </span>
+          </div>
+          <div class="contactus-navbar">
+            <div class="contactus-logo">
+              <img
+                src="../static/logo.jpeg"
+                alt="Ellipse18843"
+                class="contactus-ellipse1"
+              />
+              <span class="contactus-text21"><span>D3CODEIT!</span></span>
+            </div>
+            <div class="contactus-frame1">
+                <a href='{{ url_for("index") }}'>
+                    <span class="contactus-text23"><span>Home</span></span>
+                </a>
+              <a href='{{ url_for("about_page") }}'>
+                <span class="contactus-text25"><span>About us</span></span>
+                </a>
+              <a href='{{ url_for("contact_page") }}'>
+                  <span class="contactus-text27"><span>Contact us</span></span>
+                </a>
+              
+            </div>
+            <div class="contactus-login">
+             <a href='{{ url_for("login_page") }}'>
+                 <button class="contactus-text29">Log in</button>
+                </a>
+          
+            </div>
+            <div class="contactus-signup">
+                <a href='{{ url_for("signup_page") }}'>
+                    <button class="contactus-text31">Sign up</button>
+                </a>
+              
+            </div>
+          </div>
+
+          <div class="contactus-submit">
+              <button class="contactus-text33">SUBMIT</button>
+
+          </div>
+          <span class="contactus-text35"><span>Contact us<br></span class="text"></span>
+          
+            <div class="contactus-name">
+
+            <label for="name"></label>
+            <input style="font-size:25px;"  type="text" class="name" name="name" placeholder="  Name">
+          </div> 
+          <div class="contactus-email">
+            <div class="contactus-group1">
+              <label for="name"></label> 
+            <input style="font-size:25px;"  type="text" class="email" name="email" placeholder="  Email address">
+            </div>
+          </div>
+          <div class="contactus-feedback">
+            <label for="name"></label>
+            <input style="font-size:25px;" type="text" class="feedback" name="feedback" placeholder=" Leave your feedback here...">
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
