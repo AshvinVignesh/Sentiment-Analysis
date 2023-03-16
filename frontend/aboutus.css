@@ -1,582 +1,652 @@
 .about-us-about-us {
-    width: 100%;
-    height: 1423px;
-    display: flex;
-    overflow: hidden;
-    position: relative;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
-    align-items: center;
-    border-color: rgba(0, 0, 0, 1);
-    border-style: solid;
-    border-width: 1px;
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(11, 32, 223, 1) 25%, rgba(66, 82, 229, 1) 45%, rgba(138, 145, 211, 1) 63%, rgba(255, 255, 255, 0.6800000071525574) 81%, rgba(255, 255, 255, 1) 100%);
-  }
-  .about-us-footer {
-    top: 1144px;
-    left: 0px;
-    width: 1728px;
-    height: 279px;
-    display: flex;
-    padding: 0;
-    position: absolute;
-    align-self: auto;
-    box-sizing: border-box;
-    align-items: flex-start;
-    flex-shrink: 1;
-    border-color: transparent;
-    border-style: none;
-    border-width: 0;
-    margin-right: 0;
-    border-radius: 0px 0px 0px 0px;
-    margin-bottom: 0;
-    flex-direction: row;
-    justify-content: flex-start;
-    background-color: rgba(24, 30, 81, 1);
-  }
-  .about-us-legal {
-    top: 40.999755859375px;
-    left: 640px;
-    width: 222.00001525878906px;
-    height: 180.92149353027344px;
-    display: flex;
-    padding: 0;
-    position: absolute;
-    align-self: auto;
-    box-sizing: border-box;
-    align-items: flex-start;
-    flex-shrink: 1;
-    border-color: transparent;
-    border-style: none;
-    border-width: 0;
-    border-radius: 0px 0px 0px 0px;
-    flex-direction: row;
-    justify-content: flex-start;
-    background-color: transparent;
-  }
-  .about-us-text {
-    top: 68.5597915649414px;
-    left: 0.000030517578125px;
-    color: rgb(255, 255, 255);
-    width: 222px;
-    height: auto;
-    position: absolute;
-    font-size: 24px;
-    align-self: auto;
-    font-style: SemiBold;
-    text-align: center;
-    font-family: Outfit;
-    font-weight: 600;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .about-us-text02 {
-    top: 113.31402587890625px;
-    left: 0.000030517578125px;
-    color: rgb(255, 255, 255);
-    width: 222px;
-    height: auto;
-    position: absolute;
-    font-size: 24px;
-    align-self: auto;
-    font-style: SemiBold;
-    text-align: center;
-    font-family: Outfit;
-    font-weight: 600;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .about-us-text04 {
-    top: 154.25942993164062px;
-    left: 0.000030517578125px;
-    color: rgb(255, 255, 255);
-    width: 222px;
-    height: auto;
-    position: absolute;
-    font-size: 24px;
-    align-self: auto;
-    font-style: SemiBold;
-    text-align: center;
-    font-family: Outfit;
-    font-weight: 600;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .about-us-text06 {
-    left: 35.99995422363281px;
-    color: rgb(255, 255, 255);
-    width: 150px;
-    height: auto;
-    position: absolute;
-    font-size: 35px;
-    align-self: auto;
-    font-style: Black;
-    text-align: center;
-    font-family: Outfit;
-    font-weight: 900;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .about-us-menu {
-    top: 41px;
-    left: 102px;
-    width: 193px;
-    height: 180.662353515625px;
-    display: flex;
-    padding: 0;
-    position: absolute;
-    align-self: auto;
-    box-sizing: border-box;
-    align-items: flex-start;
-    flex-shrink: 1;
-    border-color: transparent;
-    border-style: none;
-    border-width: 0;
-    border-radius: 0px 0px 0px 0px;
-    flex-direction: row;
-    justify-content: flex-start;
-    background-color: transparent;
-  }
-  .about-us-text08 {
-    top: 113.000244140625px;
-    left: 21px;
-    color: rgb(255, 253, 253);
-    width: 150px;
-    height: auto;
-    position: absolute;
-    font-size: 24px;
-    align-self: auto;
-    font-style: SemiBold;
-    text-align: center;
-    font-family: Outfit;
-    font-weight: 600;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .about-us-text10 {
-    top: 154.000244140625px;
-    color: rgb(255, 255, 255);
-    width: 193px;
-    height: auto;
-    position: absolute;
-    font-size: 24px;
-    align-self: auto;
-    font-style: SemiBold;
-    text-align: center;
-    font-family: Outfit;
-    font-weight: 600;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .about-us-text15 {
-    top: 66px;
-    left: 21px;
-    color: rgb(255, 255, 255);
-    width: 150px;
-    height: auto;
-    position: absolute;
-    font-size: 24px;
-    align-self: auto;
-    font-style: SemiBold;
-    text-align: center;
-    font-family: Outfit;
-    font-weight: 600;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .about-us-text17 {
-    left: 21px;
-    color: rgb(255, 255, 255);
-    width: 150px;
-    height: auto;
-    position: absolute;
-    font-size: 35px;
-    align-self: auto;
-    font-style: Black;
-    text-align: center;
-    font-family: Outfit;
-    font-weight: 900;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .about-us-text19 {
-    top: 42px;
-    left: 1196px;
-    color: rgb(255, 255, 255);
-    width: 217px;
-    height: auto;
-    position: absolute;
-    font-size: 35px;
-    align-self: auto;
-    font-style: Black;
-    text-align: center;
-    font-family: Outfit;
-    font-weight: 900;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .about-us-navbar {
-    top: 69px;
-    left: 126px;
-    width: 1488px;
-    height: 143px;
-    display: flex;
-    position: absolute;
-    align-items: center;
-    flex-shrink: 0;
-    border-color: transparent;
-  }
-  .about-us-logo {
-    display: flex;
-    position: relative;
-    box-sizing: content-box;
-    align-items: center;
-    border-color: transparent;
-    margin-right: 25px;
-  }
-  .about-us-ellipse1 {
-    width: 154px;
-    height: 143px;
-    position: relative;
-    border-color: rgba(0, 0, 0, 1);
-    border-style: solid;
-    border-width: 1px;
-    margin-right: 0px;
-    border-radius: 200px;
-  }
-  .about-us-text21 {
-    color: rgba(20, 240, 255, 1);
-    width: 253px;
-    height: auto;
-    font-size: 40px;
-    align-self: auto;
-   
-    font-style: ExtraBold;
-    text-align: center;
-    font-family: Outfit;
-    font-weight: 800;
-    line-height: normal;
-    font-stretch: normal;
-    margin-right: 0;
-    margin-bottom: 0;
-    text-decoration: none;
-  }
-  .about-us-frame1 {
-    left:70px;
-    width: 170px;
-    height: 115px;
-    display: flex;
-    padding: 5px 10px;
-    position: relative;
-    
-    box-sizing: content-box;
-    align-items: center;
-    flex-shrink: 0;
-    border-color: transparent;
-    margin-right: 0px;
-    justify-content: center;
-  }
-  .about-us-text23 {
-    color: rgba(255, 255, 255, 1);
-    width: 160px;
-    height: auto;
-    font-size: 30px;
-    align-self: auto;
-    font-style: ExtraBold;
-    text-align: center;
-    font-family: Outfit;
-    font-weight: 800;
-    line-height: normal;
-    font-stretch: normal;
-    margin-right: 10px;
-    margin-bottom: 0;
-    text-decoration: none;
-  }
-  .about-us-text25 {
-    color: rgba(236, 164, 243, 1);
-    width: 160px;
-    height: auto;
-    font-size: 30px;
-    align-self: auto;
-    font-style: ExtraBold;
-    text-align: center;
-    font-family: Outfit;
-    font-weight: 800;
-    line-height: normal;
-    font-stretch: normal;
-    margin-right: 10px;
-    margin-bottom: 0;
-    text-decoration: none;
-  }
-  .about-us-text27 {
-    color: rgba(255, 255, 255, 1);
-    width: 160px;
-    height: auto;
-    font-size: 30px;
-    align-self: auto;
-    font-style: ExtraBold;
-    text-align: center;
-    font-family: Outfit;
-    font-weight: 800;
-    line-height: normal;
-    font-stretch: normal;
-    margin-right: 0;
-    margin-bottom: 0;
-    text-decoration: none;
-  }
-  .about-us-login {
-    left:320px;
-    width: 160px;
-    height: 60px;
-    display: flex;
-    position: relative;
+  width: 100%;
+  height: 1235px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  
+  align-items: center;
  
-    align-items: flex-start;
-    flex-shrink: 0;
-    border-color: transparent;
-    margin-right: 25px;
-    background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%);
-    
-  }
-  .about-us-rectangle2 {
-    top: 0px;
-    left: 0px;
-    width: 160px;
-    height: 60px;
-    position: absolute;
-    box-sizing: content-box;
-    border-color: rgba(168, 189, 189, 1);
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 10px;
-  }
-  .about-us-text29 {
-    top: 11px;
-    left: 5px;
-    color: rgba(255, 255, 255, 1);
-    width: 155px;
-    height: auto;
-    position: absolute;
-    font-size: 28px;
-    align-self: auto;
-    font-style: Bold;
-    text-align: center;
-    font-family: Outfit;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    margin-right: 0;
-    margin-bottom: 0;
-    text-decoration: none;
-  }
-  .about-us-signup {
-    left:340px;
-    width: 160px;
-    height: 60px;
-    display: flex;
-    padding: 0;
-    position: relative;
-    align-self: auto;
-    box-sizing: border-box;
-    align-items: flex-start;
-    flex-shrink: 1;
-    border-color: transparent;
-    border-style: none;
-    border-width: 0;
-    margin-right: 0;
-    border-radius: 0px 0px 0px 0px;
-    margin-bottom: 0;
-    flex-direction: row;
-    justify-content: flex-start;
-    background-color: transparent;
-    background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%);
-  }
-  .about-us-text31 {
-    top: 10.5882568359375px;
-    left: 7.39495849609375px;
-    color: rgba(255, 255, 255, 1);
-    width: 145px;
-    height: auto;
-    position: absolute;
-    font-size: 28px;
-    align-self: auto;
-    font-style: Bold;
-    text-align: center;
-    font-family: Outfit;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .about-us-text33 {
-    top: 301px;
-    left: 568px;
-    color: rgba(255, 255, 255, 1);
-    width: 666px;
-    height: auto;
-    position: absolute;
-    font-size: 40px;
-    align-self: auto;
-    font-style: Regular;
-    text-align: center;
-    font-family: Roboto;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    margin-right: 0;
-    margin-bottom: 0;
-    text-decoration: none;
-  }
-  .about-us-rectangle8 {
-    top: 437px;
-    left: 60px;
-    width: 410px;
-    height: 338px;
-    position: absolute;
-    border-color: transparent;
-    border-radius: 15px;
-  }
-  .about-us-rectangle9 {
-    top: 437px;
-    left: 1050px;
-    width: 410px;
-    height: 338px;
-    position: absolute;
-    border-color: transparent;
-    border-radius: 15px;
-  }
-  .about-us-rectangle10 {
-    top: 437px;
-    left: 565px;
-    width: 410px;
-    height: 338px;
-    position: absolute;
-    border-color: transparent;
-    border-radius: 15px;
-  }
-  .about-us-text35 {
-    top: 834px;
-    left: 18px;
-    color: rgba(255, 255, 255, 1);
-    width: 475px;
-    height: auto;
-    position: absolute;
-    font-size: 30px;
-    align-self: auto;
-    font-style: ExtraBold;
-    text-align: center;
-    font-family: Outfit;
-    font-weight: 800;
-    line-height: normal;
-    font-stretch: normal;
-    margin-right: 0;
-    margin-bottom: 0;
-    text-decoration: none;
-  }
-  .about-us-text37 {
-    top: 950px;
-    left: 18px;
-    color: rgba(255, 255, 255, 1);
-    width: 475px;
-    height: auto;
-    position: absolute;
-    font-size: 30px;
-    align-self: auto;
-    font-style: ExtraBold;
-    text-align: center;
-    font-family: Outfit;
-    font-weight: 800;
-    line-height: normal;
-    font-stretch: normal;
-    margin-right: 0;
-    margin-bottom: 0;
-    text-decoration: none;
-  }
-  .about-us-text39 {
-    top: 835px;
-    left: 540px;
-    color: rgba(255, 255, 255, 1);
-    width: 475px;
-    height: auto;
-    position: absolute;
-    font-size: 30px;
-    align-self: auto;
-    font-style: ExtraBold;
-    text-align: center;
-    font-family: Outfit;
-    font-weight: 800;
-    line-height: normal;
-    font-stretch: normal;
-    margin-right: 0;
-    margin-bottom: 0;
-    text-decoration: none;
-  }
-  .about-us-text41 {
-    top: 953px;
-    left: 540px;
-    color: rgba(255, 255, 255, 1);
-    width: 475px;
-    height: auto;
-    position: absolute;
-    font-size: 30px;
-    align-self: auto;
-    font-style: ExtraBold;
-    text-align: center;
-    font-family: Outfit;
-    font-weight: 800;
-    line-height: normal;
-    font-stretch: normal;
-    margin-right: 0;
-    margin-bottom: 0;
-    text-decoration: none;
-  }
-  .about-us-text43 {
-    top: 834px;
-    left: 1050px;
-    color: rgba(255, 255, 255, 1);
-    width: 475px;
-    height: auto;
-    position: absolute;
-    font-size: 30px;
-    align-self: auto;
-    font-style: ExtraBold;
-    text-align: center;
-    font-family: Outfit;
-    font-weight: 800;
-    line-height: normal;
-    font-stretch: normal;
-    margin-right: 0;
-    margin-bottom: 0;
-    text-decoration: none;
-  }
-  .about-us-text45 {
-    top: 954px;
-    left: 1050px;
-    color: rgba(255, 255, 255, 1);
-    width: 475px;
-    height: auto;
-    position: absolute;
-    font-size: 30px;
-    align-self: auto;
-    font-style: ExtraBold;
-    text-align: center;
-    font-family: Outfit;
-    font-weight: 800;
-    line-height: normal;
-    font-stretch: normal;
-    margin-right: 0;
-    margin-bottom: 0;
-    text-decoration: none;
-  }
-  a:link{
-    text-decoration: none;
-  }
+  background-image: linear-gradient(rgba(194,165,225)0%,rgba(255,255,255) 25%);
+}
+.about-us-footer {
+  top: 990px;
+  left: 0px;
+  width: 1728px;
+  height: 279px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(56, 6, 111);
+}
+.about-us-legal {
+  top: 40.999755859375px;
+  left: 570px;
+  width: 222.00001525878906px;
+  height: 180.92149353027344px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.about-us-text {
+  top: 68.5597915649414px;
+  left: 0.000030517578125px;
+  color: rgb(255, 255, 255);
+  width: 222px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.about-us-text02 {
+  top: 113.31402587890625px;
+  left: 0.000030517578125px;
+  color: rgb(255, 255, 255);
+  width: 222px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.about-us-text04 {
+  top: 154.25942993164062px;
+  left: 0.000030517578125px;
+  color: rgb(255, 255, 255);
+  width: 222px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.about-us-text06 {
+  left: 35.99995422363281px;
+  color: rgb(255, 255, 255);
+  width: 150px;
+  height: auto;
+  position: absolute;
+  font-size: 35px;
+  align-self: auto;
+  font-style: Black;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 900;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.about-us-menu {
+  top: 41px;
+  left: 142px;
+  width: 293px;
+  height: 180.662353515625px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.about-us-text08 {
+  top: 113.000244140625px;
+  left: 21px;
+  color: rgb(255, 253, 253);
+  width: 150px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.about-us-text10 {
+  top: 154.000244140625px;
+  color: rgb(255, 255, 255);
+  width: 193px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.about-us-text15 {
+  top: 66px;
+  left: 21px;
+  color: rgb(255, 255, 255);
+  width: 150px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.about-us-text17 {
+  left: 21px;
+  color: rgb(255, 255, 255);
+  width: 150px;
+  height: auto;
+  position: absolute;
+  font-size: 35px;
+  align-self: auto;
+  font-style: Black;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 900;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.about-us-text19 {
+  top: 42px;
+  left: 1056px;
+  color: rgb(255, 255, 255);
+  width: 217px;
+  height: auto;
+  position: absolute;
+  font-size: 35px;
+  align-self: auto;
+  font-style: Black;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 900;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.about-us-navbar {
+  top: 69px;
+  left: 75px;
+  width: 10px;
+  height: 90px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.about-us-logo {
+  display: flex;
+  position: relative;
+  box-sizing: content-box;
+  align-items: center;
+  border-color: transparent;
+  margin-right: 25px;
+}
+.about-us-ellipse1 {
+  width: 154px;
+  height: 143px;
+  position: relative;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 0px;
+  border-radius: 200px;
+}
+.about-us-text21 {
+  color: rgba(14,9,240);
+  width: 253px;
+  height: auto;
+  font-size: 40px;
+  align-self: auto;
+ 
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.about-us-frame1 {
+  left:80px;
+  width: 170px;
+  height: 115px;
+  display: flex;
+  padding: 5px 10px;
+  position: relative;
+  
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 0px;
+  justify-content: center;
+}
+.about-us-frameA{
+  left:120px;
+  width: 170px;
+  height: 115px;
+  display: flex;
+  padding: 5px 10px;
+  position: relative;
+  
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 0px;
+  justify-content: center;
+}
+.about-us-frameB{
+  left:90px;
+  width: 170px;
+  height: 115px;
+  display: flex;
+  padding: 5px 10px;
+  position: relative;
+  
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 0px;
+  justify-content: center;
+}
+.about-us-frameC{
+  left:80px;
+  width: 170px;
+  height: 115px;
+  display: flex;
+  padding: 5px 10px;
+  position: relative;
+  
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 0px;
+  justify-content: center;
+}
+.about-us-text23 {
+  color: black;
+  left: 100px;;
+  width: 160px;
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 10px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.about-us-text25 {
+  color: purple;
+  width: 160px;
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 10px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.about-us-text27 {
+  color: black;
+  width: 160px;
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.about-us-login {
+  left: 350px;
+  width: 160px;
+height: 60px;
+  display: flex;
+  position: relative;
+
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 25px;
+  
+  
+}
+.about-us-rectangle2 {
+  top: 0px;
+  left: 0px;
+  width: 160px;
+  height: 70px;
+  position: absolute;
+  box-sizing: content-box;
+  border-color: rgba(168, 189, 189, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+.about-us-text29 {
+  top: 11px;
+  left: 5px;
+  color: rgba(255, 255, 255, 1);
+  width: 155px;
+  height: 38px;
+  position: absolute;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+     border-radius: 10px;
+  border-color: transparent;
+  background-color: transparent;
+  background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%)
+}
+.about-us-signup {
+  left: 350px;
+  width: 160px;
+height: 60px;
+display: flex;
+padding: 0;
+position: relative;
+align-self: auto;
+box-sizing: border-box;
+align-items: flex-start;
+flex-shrink: 1;
+border-color: transparent;
+border-style: none;
+border-width: 0;
+margin-right: 0;
+border-radius: 0px 0px 0px 0px;
+margin-bottom: 0;
+flex-direction: row;
+justify-content: flex-start;
+background-color: transparent;
+background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%);
+}
+.about-us-text31 {
+  top: 10.5882568359375px;
+  left: 7.39495849609375px;
+  color: rgba(255, 255, 255, 1);
+  width: 145px;
+  height: 38px;
+  position: absolute;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+     border-radius: 10px;
+  border-color: transparent;
+  background-color: transparent;
+  background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%)
+}
+.about-us-text33 {
+  top: 240px;
+  left: 408px;
+  color: black;
+  width: 666px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.about-us-rectangle8 {
+  top: 377px;
+  left: 120px;
+  width: 310px;
+  height: 310px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 15px;
+  border-style:ridge;
+  border-color: black;
+  border-width: 3px;
+}
+.about-us-rectangle9 {
+  top: 377px;
+  left: 995px;
+  width: 310px;
+  height: 310px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 15px;
+  border-style:ridge;
+  border-color: black;
+  border-width: 3px;
+}
+.about-us-rectangle10 {
+  top: 377px;
+  left: 555px;
+  width: 310px;
+  height: 310px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 15px;
+  border-style:ridge;
+  border-color: black;
+  border-width: 5px;
+}
+.about-us-text35 {
+  top: 734px;
+  left: 38px;
+  color: black;
+  width: 475px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.about-us-text37 {
+  top: 790px;
+  left: 38px;
+  color: black;
+  width: 475px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.emailicon{
+  top: 2000px;
+  left: auto;
+  width: 60px;
+  
+  height :60px;
+}
+.about-us-text39 {
+  top: 734px;
+  left: 475px;
+  color: black;
+  width: 475px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.about-us-text41 {
+  top: 790px;
+  left: 490px;
+  color: black;
+  width: 475px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.about-us-text43 {
+  top: 734px;
+  left: 920px;
+  color: black;
+  width: 475px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.about-us-text45 {
+  top: 787px;
+  left: 923px;
+  color: black;
+  width: 475px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+a:link{
+  text-decoration: none;
+}
+
   
