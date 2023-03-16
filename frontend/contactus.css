@@ -1,6 +1,6 @@
 .contactus-contactus {
   width: 100%;
-  height: 1095px;
+  height: 980px;
   display: flex;
   overflow: hidden;
   position: relative;
@@ -12,7 +12,7 @@
   background-image: linear-gradient(rgba(194,165,225)0%,rgba(255,255,255) 25%);
 }
 .contactus-footer {
-  top: 845px;
+  top: 730px;
   left: px;
   width: 1728px;
   height: 307px;
@@ -60,7 +60,7 @@
   width: 222px;
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 20px;
   align-self: auto;
   font-style: SemiBold;
   text-align: center;
@@ -77,7 +77,7 @@
   width: 222px;
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 20px;
   align-self: auto;
   font-style: SemiBold;
   text-align: center;
@@ -94,7 +94,7 @@
   width: 222px;
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 20px;
   align-self: auto;
   font-style: SemiBold;
   text-align: center;
@@ -110,7 +110,7 @@
   width: 150px;
   height: auto;
   position: absolute;
-  font-size: 35px;
+  font-size: 31px;
   align-self: auto;
   font-style: Black;
   text-align: center;
@@ -147,7 +147,7 @@
   width: 150px;
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 20px;
   align-self: auto;
   font-style: SemiBold;
   text-align: center;
@@ -163,7 +163,7 @@
   width: 193px;
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 20px;
   align-self: auto;
   font-style: SemiBold;
   text-align: center;
@@ -180,7 +180,7 @@
   width: 150px;
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 20px;
   align-self: auto;
   font-style: SemiBold;
   text-align: center;
@@ -196,7 +196,7 @@
   width: 93px;
   height: auto;
   position: absolute;
-  font-size: 35px;
+  font-size: 30px;
   align-self: auto;
   font-style: Black;
   text-align: center;
@@ -213,7 +213,7 @@
   width: 217px;
   height: auto;
   position: absolute;
-  font-size: 35px;
+  font-size: 30px;
   align-self: auto;
   font-style: Black;
   text-align: center;
@@ -227,7 +227,7 @@
   top: 69px;
   left: 75px;
   width: 10px;
-  height: 90px;
+  height: 40px;
   display: flex;
   position: absolute;
   align-items: center;
@@ -243,8 +243,9 @@
   margin-right: 25px;
 }
 .contactus-ellipse1 {
-  width: 154px;
-  height: 143px;
+  width: 124px;
+  height: 123px;
+  left: 10px;
   position: relative;
   border-color: rgba(0, 0, 0, 1);
   border-style: solid;
@@ -271,7 +272,7 @@
 }
 .contactus-frame1 {
   width: 450px;
-  height: 115px;
+  height: 105px;
   display: flex;
   padding: 5px 10px;
   position: relative;
@@ -419,7 +420,7 @@
   background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%)
 }
 .contactus-submit {
-  top: 700px;
+  top: 630px;
   left: 490px;
   display: flex;
   padding: 0;
@@ -438,9 +439,10 @@
   background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%);
 }
 .contactus-text33 {
+  left: 92px;
   top: 11px;
   color: rgba(255, 255, 255, 1);
-  width: 379px;
+  width: 259px;
   height: auto;
   position: absolute;
   font-size: 35px;
@@ -458,7 +460,7 @@
 }
 
 .contactus-text35 {
-  top: 235px;
+  top: 155px;
   left: 445px;
   color: black;
   width: 479px;
@@ -477,7 +479,7 @@
   text-decoration: none;
 }
 .contactus-name {
-  top: 375px;
+  top: 260px;
   left: 108px;
   position: absolute;
   align-self: auto;
@@ -510,7 +512,7 @@
   
 }
 .contactus-email {
-  top: 375px;
+  top: 260px;
   left: 793px;
   display: flex;
   padding: 0;
@@ -558,7 +560,7 @@
   text-decoration: none;
 }
 .contactus-feedback {
-  top: 480px;
+  top: 370px;
   left: 109px;
   width: 1120px;
   display: flex;
