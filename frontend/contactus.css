@@ -316,7 +316,7 @@
   text-decoration: none;
 }
 .contactus-text27 {
-  color: black;
+  color: purple;
   width: 160px;
   height: auto;
   font-size: 30px;
@@ -332,8 +332,9 @@
   text-decoration: none;
 }
 .contactus-login {
+  left: 45px;
   width: 160px;
-  height: 60px;
+height: 60px;
   display: flex;
   position: relative;
 
@@ -342,7 +343,7 @@
   border-color: transparent;
   margin-right: 25px;
 }
-.contactus-rectangle2 {
+/* .contactus-rectangle2 {
   top: 0px;
   left: 0px;
   width: 160px;
@@ -353,13 +354,13 @@
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
-}
+} */
 .contactus-text29 {
-  top: 11px;
+  top: 12px;
   left: 5px;
   color: rgba(255, 255, 255, 1);
   width: 155px;
-  height: auto;
+  height: 38px;
   position: absolute;
   font-size: 28px;
   align-self: auto;
@@ -376,27 +377,29 @@
   border-color: transparent;
   background-color: transparent;
   background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%)
+
 }
 .contactus-signup {
+  left: 45px;
   width: 160px;
-  height: 60px;
-  display: flex;
-  padding: 0;
-  position: relative;
-  align-self: auto;
-  box-sizing: border-box;
-  align-items: flex-start;
-  flex-shrink: 1;
-  border-color: transparent;
-  border-style: none;
-  border-width: 0;
-  margin-right: 0;
-  border-radius: 0px 0px 0px 0px;
-  margin-bottom: 0;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: transparent;
-  background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%);
+height: 60px;
+display: flex;
+padding: 0;
+position: relative;
+align-self: auto;
+box-sizing: border-box;
+align-items: flex-start;
+flex-shrink: 1;
+border-color: transparent;
+border-style: none;
+border-width: 0;
+margin-right: 0;
+border-radius: 0px 0px 0px 0px;
+margin-bottom: 0;
+flex-direction: row;
+justify-content: flex-start;
+background-color: transparent;
+background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%);
 }
 .contactus-text31 {
   top: 10.5882568359375px;
@@ -460,8 +463,8 @@
 }
 
 .contactus-text35 {
-  top: 155px;
-  left: 445px;
+  top: 165px;
+  left: 500px;
   color: black;
   width: 479px;
   height: auto;
@@ -479,7 +482,7 @@
   text-decoration: none;
 }
 .contactus-name {
-  top: 260px;
+  top: 290px;
   left: 108px;
   position: absolute;
   align-self: auto;
@@ -512,7 +515,7 @@
   
 }
 .contactus-email {
-  top: 260px;
+  top: 290px;
   left: 793px;
   display: flex;
   padding: 0;
@@ -560,7 +563,7 @@
   text-decoration: none;
 }
 .contactus-feedback {
-  top: 370px;
+  top: 390px;
   left: 109px;
   width: 1120px;
   display: flex;
@@ -569,12 +572,12 @@
   align-self: auto;
   box-sizing: border-box;
   align-items: flex-start;
-  flex-shrink: 1;
+  /* flex-shrink: 1; */
   border-color: transparent;
   border-style: none;
   border-width: 0;
   margin-right: 0;
-  border-radius: 0px 0px 0px 0px;
+  
   margin-bottom: 0;
   flex-direction:inherit;
   justify-content: flex-start;
@@ -628,4 +631,49 @@ a:link{
 
 #feedback{
   background: lightgray;
+}
+.contactus-frameA{
+  left:60px;
+  width: 170px;
+  height: 115px;
+  display: flex;
+  padding: 5px 10px;
+  position: relative;
+  
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 0px;
+  justify-content: center;
+}
+.contactus-frameB{
+  left:30px;
+  width: 170px;
+  height: 115px;
+  display: flex;
+  padding: 5px 10px;
+  position: relative;
+  
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 0px;
+  justify-content: center;
+}
+.contactus-frameC{
+  left:20px;
+  width: 170px;
+  height: 115px;
+  display: flex;
+  padding: 5px 10px;
+  position: relative;
+  
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 0px;
+  justify-content: center;
 }

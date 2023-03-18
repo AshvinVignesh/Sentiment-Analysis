@@ -1,6 +1,6 @@
 .about-us-about-us {
   width: 100%;
-  height: 1235px;
+  height: 1195px;
   display: flex;
   overflow: hidden;
   position: relative;
@@ -10,7 +10,7 @@
   background-image: linear-gradient(rgba(194,165,225)0%,rgba(255,255,255) 25%);
 }
 .about-us-footer {
-  top: 990px;
+  top: 950px;
   left: 0px;
   width: 1728px;
   height: 279px;
@@ -32,7 +32,7 @@
   background-color: rgba(56, 6, 111);
 }
 .about-us-legal {
-  top: 40.999755859375px;
+  top: 29px;
   left: 570px;
   width: 222.00001525878906px;
   height: 180.92149353027344px;
@@ -119,7 +119,7 @@
   text-decoration: none;
 }
 .about-us-menu {
-  top: 41px;
+  top: 29px;
   left: 142px;
   width: 293px;
   height: 180.662353515625px;
@@ -189,7 +189,7 @@
   text-decoration: none;
 }
 .about-us-text17 {
-  left: 21px;
+  left: 29px;
   color: rgb(255, 255, 255);
   width: 150px;
   height: auto;
@@ -205,7 +205,7 @@
   text-decoration: none;
 }
 .about-us-text19 {
-  top: 42px;
+  top: 29px;
   left: 1056px;
   color: rgb(255, 255, 255);
   width: 217px;
@@ -225,7 +225,7 @@
   top: 69px;
   left: 75px;
   width: 10px;
-  height: 90px;
+  height: 40px;
   display: flex;
   position: absolute;
   align-items: center;
@@ -241,8 +241,9 @@
   margin-right: 25px;
 }
 .about-us-ellipse1 {
-  width: 154px;
-  height: 143px;
+  width: 124px;
+  height: 123px;
+  left: 10px;
   position: relative;
   border-color: rgba(0, 0, 0, 1);
   border-style: solid;
@@ -390,7 +391,7 @@ height: 60px;
   
   
 }
-.about-us-rectangle2 {
+/* .about-us-rectangle2 {
   top: 0px;
   left: 0px;
   width: 160px;
@@ -401,7 +402,7 @@ height: 60px;
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
-}
+} */
 .about-us-text29 {
   top: 11px;
   left: 5px;
@@ -469,15 +470,15 @@ background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9,
   background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%)
 }
 .about-us-text33 {
-  top: 240px;
-  left: 408px;
+  top: 190px;
+  left: 388px;
   color: black;
-  width: 666px;
+  width: 700px;
   height: auto;
   position: absolute;
   font-size: 40px;
   align-self: auto;
-  font-style: Regular;
+  font-style: Bold;
   text-align: center;
   font-family: Roboto;
   font-weight: 400;
@@ -488,7 +489,7 @@ background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9,
   text-decoration: none;
 }
 .about-us-rectangle8 {
-  top: 377px;
+  top: 327px;
   left: 120px;
   width: 310px;
   height: 310px;
@@ -500,7 +501,7 @@ background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9,
   border-width: 3px;
 }
 .about-us-rectangle9 {
-  top: 377px;
+  top: 327px;
   left: 995px;
   width: 310px;
   height: 310px;
@@ -512,7 +513,7 @@ background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9,
   border-width: 3px;
 }
 .about-us-rectangle10 {
-  top: 377px;
+  top: 327px;
   left: 555px;
   width: 310px;
   height: 310px;
@@ -524,7 +525,7 @@ background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9,
   border-width: 5px;
 }
 .about-us-text35 {
-  top: 734px;
+  top: 704px;
   left: 38px;
   color: black;
   width: 475px;
@@ -543,7 +544,7 @@ background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9,
   text-decoration: none;
 }
 .about-us-text37 {
-  top: 790px;
+  top: 750px;
   left: 38px;
   color: black;
   width: 475px;
@@ -569,7 +570,7 @@ background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9,
   height :60px;
 }
 .about-us-text39 {
-  top: 734px;
+  top: 704px;
   left: 475px;
   color: black;
   width: 475px;
@@ -588,7 +589,7 @@ background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9,
   text-decoration: none;
 }
 .about-us-text41 {
-  top: 790px;
+  top: 750px;
   left: 490px;
   color: black;
   width: 475px;
@@ -607,7 +608,7 @@ background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9,
   text-decoration: none;
 }
 .about-us-text43 {
-  top: 734px;
+  top: 704px;
   left: 920px;
   color: black;
   width: 475px;
@@ -627,7 +628,7 @@ background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9,
 }
 
 .about-us-text45 {
-  top: 787px;
+  top: 750px;
   left: 923px;
   color: black;
   width: 475px;
