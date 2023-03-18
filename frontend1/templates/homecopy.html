@@ -60,7 +60,7 @@
             />
             <div class="mainpage-frame3"></div>
 
-            <div class="mainpage-submit">
+            <!-- <div class="mainpage-submit">
               <button class="mainpage-text12">Submit</button>
                   <br />
             </div>
@@ -69,7 +69,7 @@
             <div class="mainpage-submit1">
               <button class="mainpage-text17">Clear</button>
                 <br>
-            </div>
+            </div> -->
 
             <div class="mainpage-premium">
                 <a href="premium.html">
@@ -107,13 +107,26 @@
 
 
             </div>
+            <form action = "{{url_for('predict')}}" method = "post" class = "info">
+              <div class="mainpage-text-enter">
 
-            <div class="mainpage-text-enter">
+                <textarea class="mainpage-text49" rows="7" cols="20" placeholder="Enter below the text to undergo the sentiment analysis..." id="SinhalaText" name='Text'></textarea>
 
-              <textarea class="mainpage-text49" rows="7" cols="20" placeholder="Enter below the text to undergo the sentiment analysis..."></textarea>
+              </div>
 
-            </div>
+              <textarea class="mainpage-text26" rows="7" cols="20">{{ prediction_text }}</textarea>
 
+              <div class="mainpage-submit">
+                <button class="mainpage-text12">Submit</button>
+                    <br />
+              </div>
+
+
+              <div class="mainpage-submit1">
+                <button class="mainpage-text17">Clear</button>
+                  <br>
+              </div>
+            </form>
 
             <span class="mainpage-text51"><span>Positive</span></span>
             <span class="mainpage-text53"><span>Negative</span></span>
