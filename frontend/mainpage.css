@@ -4,18 +4,16 @@
     display: flex;
     overflow: hidden;
     position: relative;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+    
     align-items: center;
-    border-color: rgba(0, 0, 0, 1);
-    border-style: solid;
-    border-width: 1px;
+   
     background-image: linear-gradient(180deg, rgba(194, 165, 225, 1) 0%, rgba(255, 255, 255, 1) 13%);
   }
   .mainpage-navbar {
-    top: 68px;
-    left: 110px;
-    width: 1488px;
-    height: 143px;
+    top: 69px;
+    left: 75px;
+    width: 10px;
+    height: 40px;
     display: flex;
     position: absolute;
     align-items: center;
@@ -31,21 +29,23 @@
     margin-right: 25px;
   }
   .mainpage-ellipse1 {
-    width: 154px;
-    height: 143px;
-    position: relative;
-    border-color: rgba(0, 0, 0, 1);
-    border-style: solid;
-    border-width: 1px;
-    margin-right: 0px;
+    width: 124px;
+  height: 123px;
+  left: 10px;
+  position: relative;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 0px;
+  border-radius: 200px;
   }
   .mainpage-text {
-    color: rgba(13, 9, 240, 1);
+    color: rgba(14,9,240);
     width: 253px;
     height: auto;
     font-size: 40px;
     align-self: auto;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+   
     font-style: ExtraBold;
     text-align: center;
     font-family: Outfit;
@@ -57,17 +57,63 @@
     text-decoration: none;
   }
   .mainpage-frame1 {
-    width: 686px;
+    left:80px;
+    width: 170px;
     height: 115px;
     display: flex;
     padding: 5px 10px;
     position: relative;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+    
     box-sizing: content-box;
     align-items: center;
     flex-shrink: 0;
     border-color: transparent;
-    margin-right: 25px;
+    margin-right: 0px;
+    justify-content: center;
+  }
+  .mainpage-frameA{
+    left:120px;
+    width: 170px;
+    height: 115px;
+    display: flex;
+    padding: 5px 10px;
+    position: relative;
+    
+    box-sizing: content-box;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 0px;
+    justify-content: center;
+  }
+  .mainpage-frameB{
+    left:90px;
+    width: 170px;
+    height: 115px;
+    display: flex;
+    padding: 5px 10px;
+    position: relative;
+    
+    box-sizing: content-box;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 0px;
+    justify-content: center;
+  }
+  .mainpage-frameC{
+    left:80px;
+    width: 170px;
+    height: 115px;
+    display: flex;
+    padding: 5px 10px;
+    position: relative;
+    
+    box-sizing: content-box;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-right: 0px;
     justify-content: center;
   }
   .mainpage-text02 {
@@ -119,18 +165,19 @@
     text-decoration: none;
   }
   .mainpage-login {
+    left: 350px;
     width: 160px;
-    height: 60px;
+  height: 60px;
     display: flex;
     position: relative;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  
     align-items: flex-start;
     flex-shrink: 0;
     border-color: transparent;
     margin-right: 25px;
   }
   .mainpage-rectangle2 {
-    top: 0px;
+    /* top: 0px;
     left: 0px;
     width: 160px;
     height: 60px;
@@ -139,14 +186,14 @@
     border-color: rgba(168, 189, 189, 1);
     border-style: solid;
     border-width: 1px;
-    border-radius: 10px;
+    border-radius: 10px; */
   }
   .mainpage-text08 {
     top: 11px;
     left: 5px;
     color: rgba(255, 255, 255, 1);
     width: 155px;
-    height: auto;
+    height: 38px;
     position: absolute;
     font-size: 28px;
     align-self: auto;
@@ -159,34 +206,39 @@
     margin-right: 0;
     margin-bottom: 0;
     text-decoration: none;
+       border-radius: 10px;
+    border-color: transparent;
+    background-color: transparent;
+    background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%)
   }
   .mainpage-signup {
+    left: 350px;
     width: 160px;
-    height: 60px;
-    display: flex;
-    padding: 0;
-    position: relative;
-    align-self: auto;
-    box-sizing: border-box;
-    align-items: flex-start;
-    flex-shrink: 1;
-    border-color: transparent;
-    border-style: none;
-    border-width: 0;
-    margin-right: 0;
-    border-radius: 0px 0px 0px 0px;
-    margin-bottom: 0;
-    flex-direction: row;
-    justify-content: flex-start;
-    background-color: transparent;
-    background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%);
+  height: 60px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+  background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%);
   }
   .mainpage-text10 {
     top: 10.5882568359375px;
     left: 7.39495849609375px;
     color: rgba(255, 255, 255, 1);
     width: 145px;
-    height: auto;
+    height: 38px;
     position: absolute;
     font-size: 28px;
     align-self: auto;
@@ -197,6 +249,10 @@
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
+       border-radius: 10px;
+    border-color: transparent;
+    background-color: transparent;
+    background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%)
   }
   .mainpage-frame2 {
     top: 143px;
@@ -211,14 +267,14 @@
     border-color: transparent;
   }
   .mainpage-emotion-rating1 {
-    top: 417px;
-    left: 638px;
-    width: 417px;
+    top: 380px;
+    left: 588px;
+    width: 288px;
     height: 288px;
     position: absolute;
     border-color: rgba(0, 0, 0, 1);
     border-style: solid;
-    border-width: 1px;
+    border-width: 5px;
     border-radius: 30px;
   }
   .mainpage-frame3 {
@@ -234,9 +290,11 @@
     border-color: transparent;
   }
   .mainpage-submit {
-    top: 904px;
-    left: 1312px;
-    width: 279px;
+    top: 870px;
+    left: 1100px;
+    border-radius: 40px;
+    background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%);
+    width: 200px;
     height: 67px;
     display: flex;
     padding: 0;
@@ -247,27 +305,28 @@
     flex-shrink: 1;
     border-color: transparent;
     border-style: none;
-    border-width: 0;
-    margin-right: 0;
-    border-radius: 0px 0px 0px 0px;
-    margin-bottom: 0;
+   
     flex-direction: row;
     justify-content: flex-start;
     background-color: transparent;
+    
   }
   .mainpage-rectangle5 {
-    top: 0px;
-    left: 38.50986099243164px;
+    top: 3px;
+    left: 308.50986099243164px;
     width: 201px;
     height: 67px;
     position: absolute;
     border-color: transparent;
     border-radius: 60px;
+    background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%)
   }
   .mainpage-text12 {
-    top: 8.492958068847656px;
-    color: rgba(255, 255, 255, 1);
-    width: 279px;
+    top: 14.492958068847656px;
+    
+    right: 2px;
+    color: white;
+    width: 200px;
     height: auto;
     position: absolute;
     font-size: 40px;
@@ -280,10 +339,12 @@
     font-stretch: normal;
     text-decoration: none;
   }
-  .mainpage-submit1 {
-    top: 1047px;
-    left: 1319px;
-    width: 279px;
+  /* .mainpage-submit1 {
+    background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%);
+    top: 997px;
+    left: 1100px;
+    border-radius: 40px;
+    width: 200px;
     height: 67px;
     display: flex;
     padding: 0;
@@ -296,14 +357,15 @@
     border-style: none;
     border-width: 0;
     margin-right: 0;
-    border-radius: 0px 0px 0px 0px;
+    
     margin-bottom: 0;
     flex-direction: row;
     justify-content: flex-start;
     background-color: transparent;
-  }
+  } */
   .mainpage-rectangle51 {
     top: 0px;
+
     left: 38.50986099243164px;
     width: 201px;
     height: 67px;
@@ -312,9 +374,10 @@
     border-radius: 60px;
   }
   .mainpage-text17 {
+    right: 20px;
     top: 8.492958068847656px;
-    color: rgba(255, 255, 255, 1);
-    width: 279px;
+    color:white;
+    width: 190px;
     height: auto;
     position: absolute;
     font-size: 40px;
@@ -327,10 +390,24 @@
     font-stretch: normal;
     text-decoration: none;
   }
+  .clearbutton{
+    position: absolute;
+    top: 997px;
+    left: 1100px;
+    font-size: 40px;
+    color: white;
+    width: 200px;
+    border-radius: 40px;
+    height: 67px;
+    background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%);
+  }
+  .clearbutton:hover{
+    box-shadow: 6px 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
   .mainpage-premium {
-    top: 1162px;
-    left: 903px;
-    width: 354.6992492675781px;
+    top: 1080px;
+    left: 703px;
+    width: 300px;
     height: 55px;
     display: flex;
     padding: 0;
@@ -343,7 +420,7 @@
     border-style: none;
     border-width: 0;
     margin-right: 0;
-    border-radius: 0px 0px 0px 0px;
+    border-radius: 30px;
     margin-bottom: 0;
     flex-direction: row;
     justify-content: flex-start;
@@ -351,9 +428,9 @@
   }
   .mainpage-text22 {
     top: 9.683247566223145px;
-    left: 58.583984375px;
+    left: 47px;
     color: rgba(0, 0, 0, 1);
-    width: 252px;
+    width: 230px;
     height: auto;
     position: absolute;
     font-size: 28px;
@@ -367,8 +444,8 @@
     text-decoration: none;
   }
   .mainpage-text24 {
-    top: 1167px;
-    left: 330px;
+    top: 1080px;
+    left: 250px;
     color: rgba(0, 0, 0, 1);
     width: 298px;
     height: auto;
@@ -386,8 +463,8 @@
     text-decoration: none;
   }
   .mainpage-result {
-    top: 1451px;
-    left: 555px;
+    top: 1370px;
+    left: 355px;
     width: 376px;
     height: 177px;
     display: flex;
@@ -401,7 +478,7 @@
     border-style: none;
     border-width: 0;
     margin-right: 0;
-    border-radius: 0px 0px 0px 0px;
+    border-radius: 35px;
     margin-bottom: 0;
     flex-direction: row;
     justify-content: flex-start;
@@ -447,8 +524,8 @@
     background-color: rgba(56, 6, 111, 1);
   }
   .mainpage-legal {
-    top: 35.62451171875px;
-    left: 710.9998779296875px;
+    top: 29.62451171875px;
+    left: 600.9998779296875px;
     width: 222.00001525878906px;
     height: 199.0784912109375px;
     display: flex;
@@ -534,10 +611,10 @@
     text-decoration: none;
   }
   .mainpage-menu {
-    top: 36px;
-    left: 293px;
+    top: 30px;
+    left: 190.0000305175781px;
     width: 193px;
-    height: 204.337890625px;
+    height: 199.337890625px;
     display: flex;
     padding: 0;
     position: absolute;
@@ -627,20 +704,20 @@
   }
   .mainpage-followusicons2 {
     top: 97px;
-    left: 1209px;
+    left: 1009px;
     width: 267px;
     height: 38px;
     position: absolute;
     border-color: transparent;
   }
   .mainpage-text49 {
-    top: 35.62451171875px;
-    left: 1234px;
-    color: rgba(255, 255, 255, 1);
+    top: 29.62451171875px;
+    left: 1042px;
+    color: white;
     width: 217px;
     height: auto;
     position: absolute;
-    font-size: 35px;
+    font-size: 30px;
     align-self: auto;
     font-style: Black;
     text-align: center;
@@ -651,7 +728,7 @@
     text-decoration: none;
   }
   .mainpage-text-enter {
-    top: 904px;
+    top: 864px;
     left: 293px;
     width: 971px;
     height: 229px;
@@ -664,10 +741,6 @@
     flex-shrink: 1;
     border-color: transparent;
     border-style: none;
-    border-width: 0;
-    margin-right: 0;
-    border-radius: 0px 0px 0px 0px;
-    margin-bottom: 0;
     flex-direction: row;
     justify-content: flex-start;
     background-color: transparent;
@@ -682,7 +755,7 @@
     border-radius: 35px;
   }
   .mainpage-text51 {
-    top: 25px;
+    /* top: 5px; */
     color: rgba(0, 0, 0, 1);
     width: 317px;
     height: auto;
@@ -698,18 +771,18 @@
     text-decoration: none;
   }
   .mainpage-text53 {
-    top: 275px;
-    left: 213px;
+    top: 225px;
+    left: 180px;
     color: rgba(0, 0, 0, 1);
-    width: 1343px;
+    width: 1100px;
     height: auto;
     position: absolute;
-    font-size: 40px;
+    font-size: 30px;
     align-self: auto;
     font-style: Bold;
     text-align: center;
     font-family: Overlock;
-    font-weight: 700;
+    font-weight: 600;
     line-height: normal;
     font-stretch: normal;
     margin-right: 0;
@@ -718,12 +791,12 @@
   }
   .mainpage-text55 {
     top: 768px;
-    left: 321px;
+    left: 225px;
     color: rgba(0, 0, 0, 1);
     width: 1056px;
     height: auto;
     position: absolute;
-    font-size: 40px;
+    font-size: 38px;
     align-self: auto;
     font-style: Bold;
     text-align: center;
@@ -736,13 +809,13 @@
     text-decoration: none;
   }
   .mainpage-text57 {
-    top: 1308px;
-    left: 321px;
+    top: 1228px;
+    left: 220px;
     color: rgba(0, 0, 0, 1);
     width: 806px;
     height: auto;
     position: absolute;
-    font-size: 40px;
+    font-size: 35px;
     align-self: auto;
     font-style: SemiBold;
     text-align: center;
@@ -755,10 +828,10 @@
     text-decoration: none;
   }
   .mainpage-indicators {
-    top: 1379px;
-    left: 1227px;
+    top: 1400px;
+    left: 1027px;
     width: 319px;
-    height: 319px;
+    height: 309px;
     display: flex;
     padding: 0;
     position: absolute;
@@ -766,11 +839,11 @@
     box-sizing: border-box;
     align-items: flex-start;
     flex-shrink: 1;
-    border-color: transparent;
-    border-style: none;
-    border-width: 0;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
     margin-right: 0;
-    border-radius: 0px 0px 0px 0px;
+    border-radius: 15px;
     margin-bottom: 0;
     flex-direction: row;
     justify-content: flex-start;
@@ -829,8 +902,8 @@
     text-decoration: none;
   }
   .mainpage-text65 {
-    top: 1291px;
-    left: 1301px;
+    top: 1310px;
+    left: 1050px;
     color: rgba(0, 0, 0, 1);
     width: 247px;
     height: auto;
@@ -846,4 +919,15 @@
     margin-right: 0;
     margin-bottom: 0;
     text-decoration: none;
+  }
+  a:link{
+    text-decoration: none;
+  }
+
+  #sentiment{
+    width: 700px;
+    height: 200px;
+    border-radius: 40px;
+    top: 20px;
+    background: lightgrey;
   }
