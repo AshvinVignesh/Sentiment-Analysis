@@ -12,24 +12,24 @@
               <div class="signup-logo">
                 <img
                   alt="Ellipse19513"
-                  src="logo.jpeg"
+                  src="..\static\logo.jpeg"
                   class="signup-ellipse1"
                 />
                 <span class="signup-text"><span>D3CODEIT!</span></span>
               </div>
               <div class="signup-frame1">
                 <div class="signup-frameA">
-                  <a href="mainpage.html">
+                  <a href='{{ url_for("index") }}'>
                     <span class="signup-text02"><span>Home</span></span>
                   </a>
                 </div>
                 <div class="signup-frameB">
-                  <a href="aboutus.html">
+                  <a href='{{ url_for("about_page") }}'>
                     <span class="signup-text04"><span>About us</span></span>
                   </a>
                 </div>
                <div class="signup-frameC">
-                <a href="contactus.html">
+                <a href='{{ url_for("contact_page") }}'>
                   <span class="signup-text06">
                     <span>
                       <span>Contact us</span>
@@ -69,7 +69,7 @@
                 <span class="signup-text37"><span>Menu</span></span>
               </div>
               <span class="signup-text39"><span>Follow us</span><br><br>
-              <img src="followusicons.png"></span>
+              <img src="..\static\followusicons.png"></span>
             </div>
            
             <span class="signup-text41"><span>Name*</span></span>

@@ -32,41 +32,40 @@
               <span class="about-us-text17"><span>Menu</span></span>
             </div>
             <span class="about-us-text19"><span>Follow us</span><br><br>
-          <img src="followusicons.png">
+          <img src="../static/followusicons.png">
         </span>
           </div>
           <div class="about-us-navbar">
             <div class="about-us-logo">
               <img
-                src="logo.jpeg"
+                src="../static/logo.jpeg"
                 alt="Ellipse1759"
                 class="about-us-ellipse1"
               />
               <span class="about-us-text21"><span>D3CODEIT!</span></span>
             </div>
             <div class="about-us-frame1">
-              <div class="about-us-frameA">
-              <a href="mainpage.html">
+              <a href='{{ url_for("index") }}'>
               <span class="about-us-text23"><span>Home</span></span>
               </a></div>
               <div class="about-us-frameB">
-              <a href="aboutus.html">
+                <a href='{{ url_for("about_page") }}'>
               <span class="about-us-text25"><span>About us</span></span>
               </a></div>
               <div class="about-us-frameC">
-              <a href="contactus.html">  
+                <a href='{{ url_for("contact_page") }}'>  
               <span class="about-us-text27"><span>Contact us</span></span>
               </a></div>
             </div>
             <div class="about-us-login">
-              <a href="loginpage.html">
+              <a href='{{ url_for("login_page") }}'>
                 <span class="about-us-text29"><span>Log in</span></span>
 
               </a>
               
             </div>
             <div class="about-us-signup">
-              <a href="loginpage.html">   
+              <a href='{{ url_for("signup_page") }}'>   
               <span class="about-us-text31"><span>Sign up</span></span>
               </a>
             </div>
@@ -75,17 +74,17 @@
             <span>Meet the creaters of D3CODEIT!</span>
           </span>
           <img
-            src="Ashvin.jpeg"
+            src="../static/Ashvin.jpeg"
             alt="Rectangle88837"
             class="about-us-rectangle8"
           />
           <img
-            src="Roshen.jpeg"
+            src="../static/Roshen.jpeg"
             alt="Rectangle98838"
             class="about-us-rectangle9"
           />
           <img
-            src="Abdul.jpeg"
+            src="../static/Abdul.jpeg"
             alt="Rectangle108839"
             class="about-us-rectangle10"
           />

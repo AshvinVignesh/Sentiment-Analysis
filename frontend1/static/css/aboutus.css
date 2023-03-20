@@ -269,7 +269,7 @@
   text-decoration: none;
 }
 .about-us-frame1 {
-  left:80px;
+  left:10px;
   width: 170px;
   height: 115px;
   display: flex;
@@ -284,7 +284,7 @@
   justify-content: center;
 }
 .about-us-frameA{
-  left:120px;
+  left:110px;
   width: 170px;
   height: 115px;
   display: flex;
@@ -299,7 +299,7 @@
   justify-content: center;
 }
 .about-us-frameB{
-  left:90px;
+  left:0px;
   width: 170px;
   height: 115px;
   display: flex;
@@ -314,7 +314,7 @@
   justify-content: center;
 }
 .about-us-frameC{
-  left:80px;
+  left:0px;
   width: 170px;
   height: 115px;
   display: flex;
@@ -380,7 +380,7 @@
 .about-us-login {
   left: 350px;
   width: 160px;
-height: 60px;
+  height: 60px;
   display: flex;
   position: relative;
 
@@ -388,7 +388,6 @@ height: 60px;
   flex-shrink: 0;
   border-color: transparent;
   margin-right: 25px;
-  
   
 }
 /* .about-us-rectangle2 {
@@ -404,8 +403,8 @@ height: 60px;
   border-radius: 10px;
 } */
 .about-us-text29 {
-  top: 11px;
-  left: 5px;
+  bottom: 525px;
+  left: 750px;
   color: rgba(255, 255, 255, 1);
   width: 155px;
   height: 38px;
@@ -421,36 +420,14 @@ height: 60px;
   margin-right: 0;
   margin-bottom: 0;
   text-decoration: none;
-     border-radius: 10px;
+  border-radius: 10px;
   border-color: transparent;
   background-color: transparent;
   background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%)
 }
-.about-us-signup {
-  left: 350px;
-  width: 160px;
-height: 60px;
-display: flex;
-padding: 0;
-position: relative;
-align-self: auto;
-box-sizing: border-box;
-align-items: flex-start;
-flex-shrink: 1;
-border-color: transparent;
-border-style: none;
-border-width: 0;
-margin-right: 0;
-border-radius: 0px 0px 0px 0px;
-margin-bottom: 0;
-flex-direction: row;
-justify-content: flex-start;
-background-color: transparent;
-background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%);
-}
-.about-us-text31 {
+/* .about-us-signup {
   top: 10.5882568359375px;
-  left: 7.39495849609375px;
+  left: 600px;
   color: rgba(255, 255, 255, 1);
   width: 145px;
   height: 38px;
@@ -464,7 +441,28 @@ background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9,
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
-     border-radius: 10px;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: transparent;
+  background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%)
+} */
+.about-us-text31 {
+  top: 65px;
+  left: 1325px;
+  color: rgba(255, 255, 255, 1);
+  width: 145px;
+  height: 38px;
+  position: absolute;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  border-radius: 10px;
   border-color: transparent;
   background-color: transparent;
   background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%)

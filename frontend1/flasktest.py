@@ -23,7 +23,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('homecopy.html')
+    return render_template('mainpage.html')
 
 
 @app.route('/about')
@@ -98,16 +98,16 @@ def predict():
     # text1 = remove_emojis(text)
 
     def extract_emojis(text):
-        emoji = ' '.join(c for c in text if c in emoji.UNICODE_EMOJI['en'])
-        return emoji
+        return ' '.join(c for c in text if c in emoji.UNICODE_EMOJI['en'])
+        
     
-    emoji = extract_emojis(text)
+    emojis = extract_emojis(text)
 
     allemoji = joy + anger + disgust + fear + sad + surp
     def concern_emojis(text):
         return ' '.join(c for c in text if c in allemoji)
     
-    con_emoji = concern_emojis(emoji)
+    con_emoji = concern_emojis(emojis)
 
     demoji.download_codes()
     def get_emoji_meaning(e):
@@ -134,8 +134,8 @@ def predict():
 
     # english-sinhala dictionary
     dictionary = {}
-    os.chdir('frontend1\cleaned.csv')
-    df= pd.read_csv("./emojiSinhala.csv")
+    
+    df= pd.read_csv("frontend1/Files/emojiSinhala.csv")
     dictionary_file = df["En,sinhala"]
 
     for line in dictionary_file:
@@ -175,8 +175,61 @@ def predict():
                 wordlist.append(w)
         return ' '.join(wordlist)
     
-    text1 = remove_stopwords_SINHALA(text1)
+    text1 = remove_stopwords_SINHALA(text)
+    translate_words_dict = {
+        "unp": "එක්සත් ජාතික පක්ෂය",
+        "muslim": "මුස්ලිම්",
+        "srilankanpolitics": "ශ්‍රී ලංකන් දේශපාලනය",
+        "council": "සභාව",
+        "sinhala": "සිංහල",
+        "buddhist": "බෞද්ධ",
+        "buddhism": "බුද්ධාගම",
+        "srilanka": "ශ්‍රී ලංකාව",
+        "racist": "ජාතිවාදී",
+        "presidentialfirst": "පළමු ජනාධිපති",
+        "feeling": "හැඟීම",
+        "feminist": "ස්ත්‍රීවාදී",
+        "loved": "ආදරය කළා",
+        "team": "කණ්ඩායම",
+        "tclsl":"ට්විටර් ක්‍රිකට් ලීගය ශ්‍රී ලංකාව",
+        "pongal": "පොංගල්",
+        "pongalfestival": "පොංගල් උත්සවය",
+        "women": "කාන්තා",
+        "nextpresidentinsl": "ශ්‍රී ලංකාවේ මීළඟ ජනාධිපති ",
+        "seventhexecutivepresident": "හත්වන විධායක සභාපති",
+        "hate": "වෛරය",
+        "love": "ආදරය",
+        "angry": "තරහයි",
+        "doctor": "ඩොක්ටර්",
+        "ltte": "එල්ටීටීඊය",
+        "lka": "‍ශ්‍රී ලංකාව",
+        "hurt": "රිදෙනවා",
+        "typo": "යතුරු ලියනය",
+        "racial": "වාර්ගික",
+        "hatred": "වෛරය",
+        "halal": "හලාල්",
+        "wicket": "කඩුල්ල",
+        "taker": "ටේකර්",
+        "indoor": "ගෘහස්ථ",
+        "attacker": "ප්‍රහාරකයා",
+        "attack": "ප්රහාරය",
+        "spikers": "ස්පිකර්ස්",
+        "training": "පුහුණුව",
+        "final": "අවසාන",
+        "match": "තරගය",
+        "tournament": "තරඟාවලිය",
+        "youth": "තරුණ",
+        "amen": "ආමෙන්",
+        "enough": "ඇති",
+        "standagainstracism": "ජාතිවාදයට එරෙහිව නැගී සිටින්න"
+    }
 
+
+    def translate_to_sinhala(word: str) -> str:
+        word = word.lower()
+        if word in translate_words_dict:
+                return translate_words_dict[word]
+        return word
 
     __all__ = [
         'SinhalaStemmer'
@@ -218,7 +271,7 @@ def predict():
                     return word[0:-len(suffix)], word[len(word) - len(suffix):]
                 else:
                     return word, ''
-    stemmer = stemmer()
+        stemmer = stemmer()
     def stem_word(word: str) -> str:
         word= translate_to_sinhala(word)
         """
@@ -279,20 +332,19 @@ def predict():
 
     A=[]
     A.append(full_text)
-    DF = pd.read_csv('cleaned.csv')
-    count_vector = pickle.load(open('BOW.pkl',"rb"))
+    DF = pd.read_csv('frontend1\Files\cleaned.csv')
+    count_vector = pickle.load(open('frontend1\Files\BOW.pkl',"rb"))
     test_vector = count_vector.transform(A).toarray()
 
     encoder = LabelEncoder()
 
     y = encoder.fit_transform(DF['Class'])
-    classifier = joblib.load('random_forest')
+    classifier = joblib.load('frontend1\Files\Random_forest')
 
     text_predict_class = encoder.inverse_transform(classifier.predict(test_vector))
     output = text_predict_class[0]
-    # print(A[0], 'is: ',text_predict_class[0])
-    # Perform sentiment analysis on the text
-    return render_template('homecopy.html' ,prediction_text=output) # replace sentiment_result with your actual result
+    
+    return render_template('mainpage.html' ,prediction_text=output) # replace sentiment_result with your actual result
 
 
 

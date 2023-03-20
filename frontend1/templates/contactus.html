@@ -39,7 +39,7 @@
           <div class="contactus-navbar">
             <div class="contactus-logo">
               <img
-                src="logo.jpeg"
+                src="../static/logo.jpeg"
                 alt="Ellipse18843"
                 class="contactus-ellipse1"
               />
@@ -47,17 +47,17 @@
             </div>
             <div class="contactus-frame1">
               <div class="contactus-frameA">
-                <a href="mainpage.html">
+                <a href='{{ url_for("index") }}'>
                   <span class="contactus-text23"><span>Home</span></span>
               </a>
               </div>
                <div class="contactus-frameB">
-                <a href="aboutus.html">
+                <a href='{{ url_for("about_page") }}'>
                   <span class="contactus-text25"><span>About us</span></span>
                   </a>
                </div> 
               <div class="contactus-frameC">
-                <a href="contactus.html">
+                <a href='{{ url_for("contact_page") }}'>
                   <span class="contactus-text27"><span>Contact us</span></span>
                 </a>
               </div>
@@ -65,13 +65,13 @@
               
             </div>
             <div class="contactus-login">
-             <a href="loginpage.html">
+              <a href='{{ url_for("login_page") }}'>
                  <button class="contactus-text29">Log in</button>
                 </a>
           
             </div>
             <div class="contactus-signup">
-                <a href="signup.html">
+              <a href='{{ url_for("signup_page") }}'>
                     <button class="contactus-text31">Sign up</button>
                 </a>
               
