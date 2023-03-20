@@ -33,38 +33,45 @@
             </div>
             <span class="contactus-text19"><span>Follow us <br><br></span>
             
-              <img src="../static/followusicons.png/">
-            </span>
+          <img src="followusicons.png">
+          </span>
           </div>
           <div class="contactus-navbar">
             <div class="contactus-logo">
               <img
-                src="../static/logo.jpeg"
+                src="logo.jpeg"
                 alt="Ellipse18843"
                 class="contactus-ellipse1"
               />
               <span class="contactus-text21"><span>D3CODEIT!</span></span>
             </div>
             <div class="contactus-frame1">
-                <a href='{{ url_for("index") }}'>
-                    <span class="contactus-text23"><span>Home</span></span>
-                </a>
-              <a href='{{ url_for("about_page") }}'>
-                <span class="contactus-text25"><span>About us</span></span>
-                </a>
-              <a href='{{ url_for("contact_page") }}'>
+              <div class="contactus-frameA">
+                <a href="mainpage.html">
+                  <span class="contactus-text23"><span>Home</span></span>
+              </a>
+              </div>
+               <div class="contactus-frameB">
+                <a href="aboutus.html">
+                  <span class="contactus-text25"><span>About us</span></span>
+                  </a>
+               </div> 
+              <div class="contactus-frameC">
+                <a href="contactus.html">
                   <span class="contactus-text27"><span>Contact us</span></span>
                 </a>
+              </div>
+              
               
             </div>
             <div class="contactus-login">
-             <a href='{{ url_for("login_page") }}'>
+             <a href="loginpage.html">
                  <button class="contactus-text29">Log in</button>
                 </a>
           
             </div>
             <div class="contactus-signup">
-                <a href='{{ url_for("signup_page") }}'>
+                <a href="signup.html">
                     <button class="contactus-text31">Sign up</button>
                 </a>
               
@@ -75,23 +82,27 @@
               <button class="contactus-text33">SUBMIT</button>
 
           </div>
+          
           <span class="contactus-text35"><span>Contact us<br></span class="text"></span>
           
+          <form> 
             <div class="contactus-name">
 
-            <label for="name"></label>
-            <input style="font-size:25px;"  type="text" class="name" name="name" placeholder="  Name">
-          </div> 
-          <div class="contactus-email">
-            <div class="contactus-group1">
-              <label for="name"></label> 
-            <input style="font-size:25px;"  type="text" class="email" name="email" placeholder="  Email address">
+              <label for="name"></label>
+              <input style="font-size:25px;"  type="text" class="name" name="name" placeholder="  Name" id="name">
+            </div> 
+            <div class="contactus-email">
+              <div class="contactus-group1">
+                <label for="email"></label> 
+              <input style="font-size:25px;"  type="text" class="email" name="email" placeholder="  Email address" id="email">
+              </div>
             </div>
-          </div>
-          <div class="contactus-feedback">
-            <label for="name"></label>
-            <input style="font-size:25px;" type="text" class="feedback" name="feedback" placeholder=" Leave your feedback here...">
-          </div>
+            <div class="contactus-feedback">
+              <label for="feedback"></label>
+              <input style="font-size:25px;" type="text" class="feedback" name="feedback" placeholder=" Leave your feedback here..." id="feedback">
+            </div>
+          </form>
+            
         </div>
       </div>
     </div>

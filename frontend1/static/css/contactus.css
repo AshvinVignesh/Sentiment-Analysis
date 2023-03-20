@@ -1,18 +1,18 @@
 .contactus-contactus {
   width: 100%;
-  height: 1589px;
+  height: 980px;
   display: flex;
   overflow: hidden;
   position: relative;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ; */
   align-items: center;
-  border-color: rgba(0, 0, 0, 1);
-  border-style: solid;
-  border-width: 1px;
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(11, 32, 223, 1) 25%, rgba(66, 82, 229, 1) 45%, rgba(138, 145, 211, 1) 63%, rgba(255, 255, 255, 0.6800000071525574) 81%, rgba(255, 255, 255, 1) 100%);
+  /* border-color: white; */
+  /* border-style: solid; */
+  /* border-width: 1px; */
+  background-image: linear-gradient(rgba(194,165,225)0%,rgba(255,255,255) 25%);
 }
 .contactus-footer {
-  top: 1306px;
+  top: 730px;
   left: px;
   width: 1728px;
   height: 307px;
@@ -31,7 +31,7 @@
   margin-bottom: 0;
   flex-direction: row;
   justify-content: flex-start;
-  background-color: rgba(24, 30, 81, 1);
+  background-color: rgba(56, 6, 111);
 }
 .contactus-legal {
   top: 29.62451171875px;
@@ -60,7 +60,7 @@
   width: 222px;
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 20px;
   align-self: auto;
   font-style: SemiBold;
   text-align: center;
@@ -77,7 +77,7 @@
   width: 222px;
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 20px;
   align-self: auto;
   font-style: SemiBold;
   text-align: center;
@@ -94,7 +94,7 @@
   width: 222px;
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 20px;
   align-self: auto;
   font-style: SemiBold;
   text-align: center;
@@ -110,7 +110,7 @@
   width: 150px;
   height: auto;
   position: absolute;
-  font-size: 35px;
+  font-size: 31px;
   align-self: auto;
   font-style: Black;
   text-align: center;
@@ -147,7 +147,7 @@
   width: 150px;
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 20px;
   align-self: auto;
   font-style: SemiBold;
   text-align: center;
@@ -163,7 +163,7 @@
   width: 193px;
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 20px;
   align-self: auto;
   font-style: SemiBold;
   text-align: center;
@@ -180,7 +180,7 @@
   width: 150px;
   height: auto;
   position: absolute;
-  font-size: 24px;
+  font-size: 20px;
   align-self: auto;
   font-style: SemiBold;
   text-align: center;
@@ -196,7 +196,7 @@
   width: 93px;
   height: auto;
   position: absolute;
-  font-size: 35px;
+  font-size: 30px;
   align-self: auto;
   font-style: Black;
   text-align: center;
@@ -213,7 +213,7 @@
   width: 217px;
   height: auto;
   position: absolute;
-  font-size: 35px;
+  font-size: 30px;
   align-self: auto;
   font-style: Black;
   text-align: center;
@@ -227,7 +227,7 @@
   top: 69px;
   left: 75px;
   width: 10px;
-  height: 143px;
+  height: 40px;
   display: flex;
   position: absolute;
   align-items: center;
@@ -243,8 +243,9 @@
   margin-right: 25px;
 }
 .contactus-ellipse1 {
-  width: 154px;
-  height: 143px;
+  width: 124px;
+  height: 123px;
+  left: 10px;
   position: relative;
   border-color: rgba(0, 0, 0, 1);
   border-style: solid;
@@ -253,7 +254,7 @@
   border-radius: 200px;
 }
 .contactus-text21 {
-  color: rgba(20, 240, 255, 1);
+  color: rgba(14,9,240);
   width: 253px;
   height: auto;
   font-size: 40px;
@@ -271,7 +272,7 @@
 }
 .contactus-frame1 {
   width: 450px;
-  height: 115px;
+  height: 105px;
   display: flex;
   padding: 5px 10px;
   position: relative;
@@ -283,7 +284,7 @@
   justify-content: center;
 }
 .contactus-text23 {
-  color: rgba(255, 255, 255, 1);
+  color: black;
   width: 160px;
   height: auto;
   font-size: 30px;
@@ -299,7 +300,7 @@
   text-decoration: none;
 }
 .contactus-text25 {
-  color: rgba(255, 255, 255, 1);
+  color: black;
   width: 160px;
   height: auto;
   font-size: 30px;
@@ -315,7 +316,7 @@
   text-decoration: none;
 }
 .contactus-text27 {
-  color: rgba(236, 164, 243, 1);
+  color: purple;
   width: 160px;
   height: auto;
   font-size: 30px;
@@ -331,8 +332,9 @@
   text-decoration: none;
 }
 .contactus-login {
+  left: 45px;
   width: 160px;
-  height: 60px;
+height: 60px;
   display: flex;
   position: relative;
 
@@ -341,7 +343,7 @@
   border-color: transparent;
   margin-right: 25px;
 }
-.contactus-rectangle2 {
+/* .contactus-rectangle2 {
   top: 0px;
   left: 0px;
   width: 160px;
@@ -352,13 +354,13 @@
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
-}
+} */
 .contactus-text29 {
-  top: 11px;
+  top: 12px;
   left: 5px;
   color: rgba(255, 255, 255, 1);
   width: 155px;
-  height: auto;
+  height: 38px;
   position: absolute;
   font-size: 28px;
   align-self: auto;
@@ -375,27 +377,29 @@
   border-color: transparent;
   background-color: transparent;
   background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%)
+
 }
 .contactus-signup {
+  left: 45px;
   width: 160px;
-  height: 60px;
-  display: flex;
-  padding: 0;
-  position: relative;
-  align-self: auto;
-  box-sizing: border-box;
-  align-items: flex-start;
-  flex-shrink: 1;
-  border-color: transparent;
-  border-style: none;
-  border-width: 0;
-  margin-right: 0;
-  border-radius: 0px 0px 0px 0px;
-  margin-bottom: 0;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: transparent;
-  background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%);
+height: 60px;
+display: flex;
+padding: 0;
+position: relative;
+align-self: auto;
+box-sizing: border-box;
+align-items: flex-start;
+flex-shrink: 1;
+border-color: transparent;
+border-style: none;
+border-width: 0;
+margin-right: 0;
+border-radius: 0px 0px 0px 0px;
+margin-bottom: 0;
+flex-direction: row;
+justify-content: flex-start;
+background-color: transparent;
+background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%);
 }
 .contactus-text31 {
   top: 10.5882568359375px;
@@ -419,7 +423,7 @@
   background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%)
 }
 .contactus-submit {
-  top: 1072px;
+  top: 630px;
   left: 490px;
   display: flex;
   padding: 0;
@@ -438,9 +442,10 @@
   background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%);
 }
 .contactus-text33 {
+  left: 92px;
   top: 11px;
   color: rgba(255, 255, 255, 1);
-  width: 379px;
+  width: 259px;
   height: auto;
   position: absolute;
   font-size: 35px;
@@ -458,17 +463,17 @@
 }
 
 .contactus-text35 {
-  top: 315px;
-  left: 435px;
-  color: rgba(255, 255, 255, 1);
+  top: 165px;
+  left: 500px;
+  color: black;
   width: 479px;
   height: auto;
   position: absolute;
   font-size: 64px;
   align-self: auto;
-  font-style: Bold;
+  font-style: light;
   text-align: center;
-  font-family: Roboto;
+  font-family: sans-serif;
   font-weight: 300;
   line-height: normal;
   font-stretch: normal;
@@ -477,7 +482,7 @@
   text-decoration: none;
 }
 .contactus-name {
-  top: 536px;
+  top: 290px;
   left: 108px;
   position: absolute;
   align-self: auto;
@@ -490,6 +495,7 @@
   margin-bottom: 0;
   flex-direction: row;
   justify-content: flex-start;
+  
 }
 .contactus-text37 {
   top: 13px;
@@ -506,9 +512,10 @@
   font-weight: 200;
   font-stretch: normal;
   text-decoration: none;
+  
 }
 .contactus-email {
-  top: 536px;
+  top: 290px;
   left: 793px;
   display: flex;
   padding: 0;
@@ -556,7 +563,7 @@
   text-decoration: none;
 }
 .contactus-feedback {
-  top: 676px;
+  top: 390px;
   left: 109px;
   width: 1120px;
   display: flex;
@@ -565,14 +572,14 @@
   align-self: auto;
   box-sizing: border-box;
   align-items: flex-start;
-  flex-shrink: 1;
+  /* flex-shrink: 1; */
   border-color: transparent;
   border-style: none;
   border-width: 0;
   margin-right: 0;
-  border-radius: 0px 0px 0px 0px;
+  
   margin-bottom: 0;
-  flex-direction: row;
+  flex-direction:inherit;
   justify-content: flex-start;
 }
 .contactus-text41 {
@@ -593,19 +600,19 @@
   text-decoration: none;
 }
 .name{
-  width: 450px;
+  width: 420px;
   height:50px;
-  border-radius: 40px;
+  border-radius: 20px;
 }
 .email{
-  width: 450px;
+  width: 420px;
   height:50px;
-  border-radius: 40px;
+  border-radius: 20px;
 }
 .feedback{
   width: 5100px;
-  height:300px;
-  border-radius: 40px;
+  height:200px;
+  border-radius: 20px;
 }
 ::placeholder{
   opacity: 1;
@@ -613,4 +620,60 @@
 }
 a:link{
   text-decoration: none;
+}
+#name{
+  background: lightgrey;
+  
+}
+#email{
+  background: lightgrey;
+}
+
+#feedback{
+  background: lightgray;
+}
+.contactus-frameA{
+  left:60px;
+  width: 170px;
+  height: 115px;
+  display: flex;
+  padding: 5px 10px;
+  position: relative;
+  
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 0px;
+  justify-content: center;
+}
+.contactus-frameB{
+  left:30px;
+  width: 170px;
+  height: 115px;
+  display: flex;
+  padding: 5px 10px;
+  position: relative;
+  
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 0px;
+  justify-content: center;
+}
+.contactus-frameC{
+  left:20px;
+  width: 170px;
+  height: 115px;
+  display: flex;
+  padding: 5px 10px;
+  position: relative;
+  
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 0px;
+  justify-content: center;
 }
