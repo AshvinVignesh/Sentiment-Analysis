@@ -27,7 +27,7 @@ app.secret_key = 'xyzsdfg'
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = ''
-app.config['MYSQL_DB'] = 'dsgb'
+app.config['MYSQL_DB'] = 'DSGP'
   
 mysql = MySQL(app)
 
@@ -143,7 +143,7 @@ def predict():
     # english-sinhala dictionary
     dictionary = {}
 
-    df= pd.read_csv("frontend1/Files/emojiSinhala.csv")
+    df= pd.read_csv("Sentiment-Analysis\Frontend1\Files\emojiSinhala.csv")
     dictionary_file = df["En,sinhala"]
 
     for line in dictionary_file:
@@ -264,93 +264,93 @@ def predict():
         return suffixes
 
 
-    class SinhalaStemmer(Stemmer):
-        def __init__(self):
-            super().__init__()
-            self.stem_dictionary = _load_stem_dictionary()
-            self.suffixes = _load_suffixes()
+    # class SinhalaStemmer(Stemmer):
+    #     def __init__(self):
+    #         super().__init__()
+    #         self.stem_dictionary = _load_stem_dictionary()
+    #         self.suffixes = _load_suffixes()
 
-        def stem(self, word):
-            if word in self.stem_dictionary:
-                return self.stem_dictionary[word]
-            else:
-                suffix = self.suffixes.longest_prefix(word[::-1]).key
-                if suffix is not None:
-                    return word[0:-len(suffix)], word[len(word) - len(suffix):]
-                else:
-                    return word, ''
-        stemmer = stemmer()
-    def stem_word(word: str) -> str:
-        word= translate_to_sinhala(word)
-        """
-        Stemming words
-        :param word: word
-        :return: stemmed word
-        """
-        if len(word) < 4:
-            return word
+    #     def stem(self, word):
+    #         if word in self.stem_dictionary:
+    #             return self.stem_dictionary[word]
+    #         else:
+    #             suffix = self.suffixes.longest_prefix(word[::-1]).key
+    #             if suffix is not None:
+    #                 return word[0:-len(suffix)], word[len(word) - len(suffix):]
+    #             else:
+    #                 return word, ''
+    #     stemmer = stemmer()
+    # def stem_word(word: str) -> str:
+    #     word= translate_to_sinhala(word)
+    #     """
+    #     Stemming words
+    #     :param word: word
+    #     :return: stemmed word
+    #     """
+    #     if len(word) < 4:
+    #         return word
 
-        # remove 'ට'
-        if word[-1] == 'ට':
-            return word[:-1]
+    #     # remove 'ට'
+    #     if word[-1] == 'ට':
+    #         return word[:-1]
 
-        # remove 'ම'
-        if word[-1] == 'ම':
-            return word[:-1]
+    #     # remove 'ම'
+    #     if word[-1] == 'ම':
+    #         return word[:-1]
 
-        # remove 'ද'
-        if word[-1] == 'ද':
-            return word[:-1]
+    #     # remove 'ද'
+    #     if word[-1] == 'ද':
+    #         return word[:-1]
 
-        # remove 'ටත්'
-        if word[-3:] == 'ටත්':
-            return word[:-3]
+    #     # remove 'ටත්'
+    #     if word[-3:] == 'ටත්':
+    #         return word[:-3]
 
-        # remove 'එක්'
-        if word[-3:] == 'ෙක්':
-            return word[:-3]
+    #     # remove 'එක්'
+    #     if word[-3:] == 'ෙක්':
+    #         return word[:-3]
 
-        # remove 'යේ'
-        if word[-2:] == 'යේ':
-            return word[:-2]
+    #     # remove 'යේ'
+    #     if word[-2:] == 'යේ':
+    #         return word[:-2]
 
-        # remove 'ගෙ' (instead of ගේ because this step comes after simplifying text)
-        if word[-2:] == 'ගෙ':
-            return word[:-2]
+    #     # remove 'ගෙ' (instead of ගේ because this step comes after simplifying text)
+    #     if word[-2:] == 'ගෙ':
+    #         return word[:-2]
 
-        # remove 'එ'
-        if word[-1:] == 'ෙ':
-            return word[:-1]
+    #     # remove 'එ'
+    #     if word[-1:] == 'ෙ':
+    #         return word[:-1]
 
-        # remove 'ක්'
-        if word[-2:] == 'ක්':
-            return word[:-2]
+    #     # remove 'ක්'
+    #     if word[-2:] == 'ක්':
+    #         return word[:-2]
 
-        # remove 'වත්'
-        if word[-3:] == 'වත්':
-            return word[:-3]
+    #     # remove 'වත්'
+    #     if word[-3:] == 'වත්':
+    #         return word[:-3]
 
-        word=stemmer.stem(word)
-        word=word[0]
+    #     word=stemmer.stem(word)
+    #     word=word[0]
 
-        # else
-        return word
-    text1 = stem_word(text1)
+    #     # else
+    #     return word
+    # text1 = stem_word(text1)
     full_text = text1 + con_emoji_text_sinhala 
 
     A=[]
     A.append(full_text)
-    DF = pd.read_csv('frontend1\Files\cleaned.csv')
-    count_vector = pickle.load(open('frontend1\Files\BOW.pkl',"rb"))
+    DF = pd.read_csv('Sentiment-Analysis\Frontend1\Files\cleaned.csv')
+    count_vector = pickle.load(open('Sentiment-Analysis\Frontend1\Files\BOW.pkl',"rb"))
     test_vector = count_vector.transform(A).toarray()
 
     encoder = LabelEncoder()
 
     y = encoder.fit_transform(DF['Class'])
-    classifier = joblib.load('frontend1\Files\Random_forest')
+    classifier = joblib.load('Sentiment-Analysis\Frontend1\Files\Random_forest')
 
     text_predict_class = encoder.inverse_transform(classifier.predict(test_vector))
-    output = text_predict_class[0]
+    output = A[0]+" \n is \n"+text_predict_class[0]
 
     return render_template('mainpage.html' ,prediction_text=output) # replace sentiment_result with your actual result
    
@@ -369,7 +369,7 @@ def login():
             session['name'] = user['name']
             session['email'] = user['email']
             mesage = 'Logged in successfully !'
-            return render_template('homecopy.html', mesage = mesage)
+            return render_template('mainpage.html', mesage = mesage)
         else:
             mesage = 'Please enter correct email / password !'
     return render_template('loginpage.html', mesage = mesage)

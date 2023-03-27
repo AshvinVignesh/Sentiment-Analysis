@@ -130,9 +130,9 @@
           <span class="mainpage-text51">
 
            
-            <form class="Senti-text" action = "{{url_for('predict')}}" method = "post" autocomplete="off" >
+            <form class="Senti-text" action = "{{url_for('predict')}}" method = "post" >
               <label for="sentiment"></label>
-              <input style="font-size:25px;"  type="text" class="sentiment" name="Text" placeholder="  Enter text here..." id="sentiment" lang="si" autocomplete="off">
+              <input style="font-size:25px;"  type="text" class="sentiment" name="Text" placeholder="  Enter text here..." id="sentiment" lang="si" >
               <div class="mainpage-text-enter">
 
             <!-- <textarea class="mainpage-text49" rows="7" cols="20" placeholder="Enter below the text to undergo the sentiment analysis..." id="SinhalaText" name='Text'></textarea> -->
@@ -179,10 +179,10 @@
 
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
+<!-- <script>
   $(document).ready(function() {
     $('#sentiment').val('');
     // $('#lll').val('');
   });
-</script>
+</script> -->
 </html>

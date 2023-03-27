@@ -31,78 +31,67 @@
                 <span class="login-text15"><span>Home</span></span>
                 <span class="login-text17"><span>Menu</span></span>
               </div>
-              <span class="login-text19"><span>Follow us</span><br><br>
-              <img src="..\static\followusicons.png"></span>
+              <span class="login-text19"><span>Follow us</span></span>
             </div>
             <div class="login-navbar">
               <div class="login-logo">
                 <img
-                  src="..\static\logo.jpeg"
+                  src="../static/logo.jpeg"
                   alt="Ellipse19570"
                   class="login-ellipse1"
                 />
                 <span class="login-text21"><span>D3CODEIT!</span></span>
               </div>
               <div class="login-frame1">
-                <div class="login-frameA">
+                <div class="login-frame1">
                 <a href='{{ url_for("index") }}'>
                 <span class="login-text23"><span>Home</span></span>
                 </a></div>
-                <div class="login-frameB">
+                <div class="login-frame1">
                 <a href='{{ url_for("about_page") }}'>
                 <span class="login-text23"><span>About us</span></span>
                 </a></div>
-                <div class="login-frameC">
+                <div class="login-frame1">
                 <a href='{{ url_for("contact_page") }}'>
                 <span class="login-text27"><span>Contact us</span></span>
                 </a></div>
               </div>
               <div class="login-login1">
-              <a href='{{ url_for("login_page") }}'>
+              
                 <span class="login-text29"><span>Log in</span></span>
-              </a>
-                
               </div>
               <div class="login-signup">
-                <a href='{{ url_for("signup_page") }}'>
-                  <span class="login-text31"><span>Sign up</span></span>
-                </a>
-                
+                <span class="login-text31"><span>Sign up</span></span>
               </div>
             </div>
             <div class="login-submit">
               <span class="login-text33"><span>Login</span></span>
             </div>
             <div class="login-frame2"></div>
-            <div class="login-email">
-              <label for="email"></label>
-              <input style="font-size:25px;"  type="text" class="email" name="email" placeholder="  Email address" id="email">
+            <form action="{{ url_for('login') }}" method="POST">
+              {% if mesage is defined and mesage %}
+              <div class="alert alert-warning">{{ mesage }}</div>
+            {% endif %}
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" name="email">
             </div>
-            <span class="login-text35">
-              <span>Email</span>
-              <br>
-            </span>
-            
-            <div class="login-password">
-              <label for="password"></label>
-              <input style="font-size:25px;"  type="text" class="password" name="name" placeholder="  password" id="password"></span>
+            <div class="form-group">
+              <label for="pwd">Password:</label>
+              <input type="password" class="form-control" id="password" name="password" placeholder="Enter password" name="pswd">
+            </div>    
+            <button type="submit" class="btn btn-primary">Login</button>
+            <p class="bottom">Dont't have an account?  <a class="bottom" href="{{url_for('signup_page')}}"> Register here</a></p>
+          </form>
             <span class="login-text42">
-            </div>
-            <span class="login-text40"><span>Password</span>
-            <br>
-            
-            
               <span>
-                
+                <span>Welcome back</span>
                 <br />
                 <span></span>
               </span>
             </span>
             <span class="login-text47">
-              
-              
-              <span><h1>Welcome back!</h1>
-                 Please enter your details.</span>
+              <span>Welcome back! Please enter your details.</span>
             </span>
             <span class="login-text49"><span>Forgot password?</span></span>
             
