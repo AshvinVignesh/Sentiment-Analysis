@@ -350,7 +350,7 @@ def predict():
     classifier = joblib.load('Sentiment-Analysis\Frontend1\Files\Random_forest')
 
     text_predict_class = encoder.inverse_transform(classifier.predict(test_vector))
-    output = A[0]+" \n is \n"+text_predict_class[0]
+    output = text +" \n is \n"+text_predict_class[0]
 
     return render_template('mainpage.html' ,prediction_text=output) # replace sentiment_result with your actual result
    
