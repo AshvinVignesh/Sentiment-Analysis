@@ -56,15 +56,25 @@
                   <span class="signup-text39"><span>Follow us</span></span>
                 </div>
                
-                <span class="signup-text41"><span>Name*</span></span>
-                <label for="fname"></label>
-                <input type="text" class="signup-rectangle11" name="fname"><br><br>
-                <span class="signup-text43"><span>Password*</span></span>
-                <label for="fname"></label>
-                <input type="text" class="signup-rectangle14" name="fname"><br><br>
-                <span class="signup-text45"><span>Email*</span></span>
-                <label for="fname"></label>
-                <input type="text" class="signup-rectangle15" name="fname"><br><br>
+                <form action="{{ url_for('register') }}" method="post">
+                  {% if mesage is defined and mesage %}
+                <div class="alert alert-warning">{{ mesage }}</div>
+              {% endif %}
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter name" name="name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" name="email">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Enter password" name="pswd">
+              </div>    
+              <button type="submit" class="btn btn-primary">Register</button>
+              <p class="bottom">Already have an account?  <a class="bottom" href="{{url_for('login')}}"> Login here</a></p>
+            </form>
                 
                 <span class="signup-text47"><span>Get started</span></span>
                 <span class="signup-text49">
