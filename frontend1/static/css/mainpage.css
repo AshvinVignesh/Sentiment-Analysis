@@ -1,3 +1,6 @@
+*{
+  font-family: "Red Hat Text";
+}
 .mainpage-mainpage {
   width: 100%;
   height: 2130px;
@@ -19,6 +22,7 @@
   align-items: center;
   flex-shrink: 0;
   border-color: transparent;
+  
 }
 .mainpage-logo {
   display: flex;
@@ -475,8 +479,25 @@ background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9,
   background-color: rgba(217, 217, 217, 1);
 }
 .mainpage-text26 {
-  top: 500px;
-  left: 43px;
+  top: 630px;
+  left: 280px;
+  color: rgba(0, 0, 0, 1);
+  width: 289px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mainpage-text99 {
+  top: 550px;
+  left: -80px;
   color: rgba(0, 0, 0, 1);
   width: 289px;
   height: auto;
@@ -761,6 +782,7 @@ background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9,
   text-decoration: none;
 }
 .mainpage-text53 {
+  
   top: 225px;
   left: 180px;
   color: rgba(0, 0, 0, 1);
@@ -771,7 +793,7 @@ background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9,
   align-self: auto;
   font-style: Bold;
   text-align: center;
-  font-family: Overlock;
+  font-family:"Questrial" ;
   font-weight: 600;
   line-height: normal;
   font-stretch: normal;
@@ -877,7 +899,7 @@ background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9,
 .mainpage-text63 {
   top: 5px;
   left: 61px;
-  color: rgba(0, 255, 40, 1);
+  color: rgb(251, 255, 0);
   width: 178px;
   height: auto;
   position: absolute;
@@ -911,7 +933,7 @@ background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9,
 .mainpage-text67{
   top: 100px;
   left: 61px;
-  color: rgba(0, 255, 40, 1);
+  color: rgb(0, 13, 255);
   width: 178px;
   height: auto;
   position: absolute;
@@ -928,7 +950,7 @@ background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9,
 .mainpage-text68 {
   top: 200px;
   left: 61px;
-  color: rgba(0, 255, 40, 1);
+  color: rgb(255, 0, 183);
   width: 178px;
   height: auto;
   position: absolute;
@@ -971,4 +993,35 @@ a:link{
   border-radius: 40px;
   top: 20px;
   background: lightgrey;
+}
+
+textarea {
+  margin-top: 10px;
+  margin-left: 50px;
+  width: 500px;
+  height: 100px;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.07);
+  border-color: -moz-use-text-color #FFFFFF #FFFFFF -moz-use-text-color;
+  border-image: none;
+  border-radius: 6px 6px 6px 6px;
+  border-style: none solid solid none;
+  border-width: medium 1px 1px medium;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
+  color: #555555;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1em;
+  line-height: 1.4em;
+  padding: 5px 8px;
+  transition: background-color 0.2s ease 0s;
+  resize: none;
+}
+
+
+textarea:focus {
+    background: none repeat scroll 0 0 #FFFFFF;
+    outline-width: 0;
 }

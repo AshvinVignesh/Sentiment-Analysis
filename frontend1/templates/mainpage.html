@@ -7,6 +7,8 @@
     <title>mainpage</title>
     <!-- <link rel="stylesheet"  href='/static/mainpage.css'> -->
     <link rel="stylesheet"  href="{{ url_for('static', filename='css/mainpage.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300&display=swap" rel="stylesheet"> 
     
 
 </head>
@@ -139,7 +141,9 @@
 
               </div>
 
-            <textarea class="mainpage-text26" rows="7" cols="20"  style="background-color: lightgray; " autocomplete="off" id="lll">{{ prediction_text }}</textarea>
+            <textarea class="mainpage-text26" rows="1" cols="2"  style="background-color: lightgray; " autocomplete="off" id="lll">{{ prediction_text }}</textarea>
+            <textarea class="mainpage-text99" rows="8" cols="30"  style="background-color: lightgray; " autocomplete="off" id="lll">{{ prediction_text1 }}</textarea>
+            
             <div class="mainpage-submit">
             <button class="mainpage-text12">
                 <span>Submit</span>
