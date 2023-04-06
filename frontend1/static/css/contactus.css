@@ -1,3 +1,6 @@
+*{
+  font-family: "Red Hat Text";
+}
 .contactus-contactus {
   width: 100%;
   height: 980px;
@@ -64,7 +67,7 @@
   align-self: auto;
   font-style: SemiBold;
   text-align: center;
-  font-family: Outfit;
+  font-family: "Red Hat Text";
   font-weight: 600;
   line-height: normal;
   font-stretch: normal;
@@ -81,7 +84,7 @@
   align-self: auto;
   font-style: SemiBold;
   text-align: center;
-  font-family: Outfit;
+  font-family: "Red Hat Text";
   font-weight: 600;
   line-height: normal;
   font-stretch: normal;
@@ -98,7 +101,7 @@
   align-self: auto;
   font-style: SemiBold;
   text-align: center;
-  font-family: Outfit;
+  font-family: "Red Hat Text";
   font-weight: 600;
   line-height: normal;
   font-stretch: normal;
@@ -114,7 +117,7 @@
   align-self: auto;
   font-style: Black;
   text-align: center;
-  font-family: Outfit;
+  font-family: "Red Hat Text";
   font-weight: 900;
   line-height: normal;
   font-stretch: normal;
@@ -151,7 +154,7 @@
   align-self: auto;
   font-style: SemiBold;
   text-align: center;
-  font-family: Outfit;
+  font-family: "Red Hat Text";
   font-weight: 600;
   line-height: normal;
   font-stretch: normal;
@@ -167,7 +170,7 @@
   align-self: auto;
   font-style: SemiBold;
   text-align: center;
-  font-family: Outfit;
+  /* font-family: Outfit; */
   font-weight: 600;
   line-height: normal;
   font-stretch: normal;
@@ -184,7 +187,7 @@
   align-self: auto;
   font-style: SemiBold;
   text-align: center;
-  font-family: Outfit;
+  /* font-family: Outfit; */
   font-weight: 600;
   line-height: normal;
   font-stretch: normal;
@@ -200,7 +203,7 @@
   align-self: auto;
   font-style: Black;
   text-align: center;
-  font-family: Outfit;
+  /* font-family: Outfit; */
   font-weight: 900;
   line-height: normal;
   font-stretch: normal;
@@ -217,7 +220,7 @@
   align-self: auto;
   font-style: Black;
   text-align: center;
-  font-family: Outfit;
+  /* font-family: Outfit; */
   font-weight: 900;
   line-height: normal;
   font-stretch: normal;
