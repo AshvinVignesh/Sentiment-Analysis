@@ -1,3 +1,9 @@
+html, body {
+  width: 100%;
+}
+
+
+
 .login-login {
   width: 100%;
   height: 1050px;
@@ -438,16 +444,17 @@
     align-self: auto;
     box-sizing: border-box;
     align-items: flex-start;
-    flex-shrink: 1;
-    border-color: transparent;
-    border-style: none;
-    border-width: 0;
-    margin-right: 0;
-    border-radius: 40px;
-    margin-bottom: 0;
-    flex-direction: row;
-    justify-content: flex-start;
-    background-color: transparent;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
     background-image: linear-gradient(75deg, rgba(147, 11, 193, 1) 15%, rgba(105, 9, 211, 1) 32%, rgba(38, 6, 237, 1) 71%);
   }
   .login-text33 {
@@ -562,8 +569,8 @@
     text-decoration: none;
   }
   .login-text42 {
-    top: 243px;
-    left: 717px;
+    top: 175px;
+    left: 580px;
     color: black;
     width: 374px;
     height: auto;
@@ -581,7 +588,7 @@
     text-decoration: none;
   }
   .login-text47 {
-    top: 124px;
+    top: 243px;
     left: 422px;
     color: black;
     width: 663px;
@@ -640,7 +647,7 @@
   .login-noaccount {
     top: 735px;
     left: 599px;
-    width: 410px;
+    width: 450px;
     height: 28px;
     display: flex;
     padding: 0;
@@ -661,7 +668,7 @@
   }
   .login-text53 {
     color: rgba(0, 0, 0, 1);
-    width: 313px;
+    width: 280px;
     height: auto;
     position: absolute;
     font-size: 28px;
@@ -675,12 +682,12 @@
     text-decoration: none;
   }
   .login-text55 {
-    left: 302px;
+    left: 285px;
     color: rgba(137, 63, 144, 1);
     width: 108px;
     height: auto;
     position: absolute;
-    font-size: 28px;
+    font-size: 25px;
     align-self: auto;
     font-style: SemiBold;
     text-align: center;

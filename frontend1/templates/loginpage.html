@@ -56,50 +56,41 @@
                 <span class="login-text27"><span>Contact us</span></span>
                 </a></div>
               </div>
-              <div class="login-login1">
-              
-                <span class="login-text29"><span>Log in</span></span>
-              </div>
+             
               <div class="login-signup">
                 <span class="login-text31"><span>Sign up</span></span>
               </div>
             </div>
-            <div class="login-submit">
-              <span class="login-text33"><span>Login</span></span>
-            </div>
+           
             <div class="login-frame2"></div>
             <form action="{{ url_for('login') }}" method="POST">
               {% if mesage is defined and mesage %}
               <div class="alert alert-warning">{{ mesage }}</div>
             {% endif %}
             <div class="form-group">
-              <label for="email">Email:</label>
-              <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" name="email">
+              <label class="login-text35" for="email">Email:</label>
+              <input class="login-email" type="email" class="form-control" id="email" name="email" placeholder="Enter email" name="email">
             </div>
             <div class="form-group">
-              <label for="pwd">Password:</label>
-              <input type="password" class="form-control" id="password" name="password" placeholder="Enter password" name="pswd">
+              <label class="login-text40" for="pwd">Password:</label>
+              <input class="login-password" type="password" class="form-control" id="password" name="password" placeholder="Enter password" name="pswd">
             </div>    
-            <button type="submit" class="btn btn-primary">Login</button>
-            <p class="bottom">Dont't have an account?  <a class="bottom" href="{{url_for('signup_page')}}"> Register here</a></p>
+            <button type="submit"  class="login-submit" >Login</button>
+            <div class="login-noaccount">
+            <p  class="login-text53">Dont't have an account?  <a  class="login-text55" href="{{url_for('signup_page')}}"> Register</a></p></div>
           </form>
             <span class="login-text42">
               <span>
-                <span>Welcome back</span>
+                <span>Welcome back!</span>
                 <br />
                 <span></span>
               </span>
             </span>
             <span class="login-text47">
               <span>Welcome back! Please enter your details.</span>
-            </span>
-            <span class="login-text49"><span>Forgot password?</span></span>
             
-            <div class="login-noaccount">
-              <span class="login-text53"><span>Dont have an account?</span></span>
-              <a href="signup.html">
-              <span class="login-text55"><span>Sign up</span></span>
-              </a>
+            
+            
             </div>
           </div>
         </div>
