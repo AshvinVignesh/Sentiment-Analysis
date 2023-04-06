@@ -33,7 +33,11 @@ mysql = MySQL(app)
 
 @app.route('/')
 def index():
-    return render_template('mainpage.html')
+    return render_template('loginpage.html')
+
+@app.route('/home')
+def home():
+    return  render_template('mainpage.html')
 
 
 @app.route('/about')
@@ -49,14 +53,12 @@ def contact_page():
 def signup_page():
     return render_template('signup.html')
 
-@app.route('/login')
-def login_page():
-    return render_template('loginpage.html')
 
 
 
 
-@app.route('/', methods=['POST'])
+
+@app.route('/home', methods=['POST'])
 def predict():
     text = request.form['Text']
 
@@ -354,7 +356,7 @@ def predict():
 
     return render_template('mainpage.html' ,prediction_text=output,prediction_text1=text) # replace sentiment_result with your actual result
    
-@app.route('/login', methods =['GET', 'POST'])
+@app.route('/', methods =['GET', 'POST'])
 def login():
     mesage = ''
     if request.method == 'POST' and 'email' in request.form and 'password' in request.form:

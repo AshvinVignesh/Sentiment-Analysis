@@ -61,31 +61,28 @@
                 <div class="alert alert-warning">{{ mesage }}</div>
               {% endif %}
               <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" class="form-control" id="name" name="name" placeholder="Enter name" name="name">
+                <label class="signup-text41" for="name">Name:</label>
+                <input type="text" class="signup-rectangle11" id="name" name="name" placeholder="Enter name" name="name">
               </div>
               <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" name="email">
+                <label class="signup-text45" for="email">Email:</label>
+                <input type="email" class="signup-rectangle14" id="email" name="email" placeholder="Enter email" name="email">
               </div>
               <div class="form-group">
-                <label for="pwd">Password:</label>
-                <input type="password" class="form-control" id="password" name="password" placeholder="Enter password" name="pswd">
+                <label class="signup-text43" for="pwd">Password:</label>
+                <input type="password" class="signup-rectangle15" id="password" name="password" placeholder="Enter password" name="pswd">
               </div>    
-              <button type="submit" class="btn btn-primary">Register</button>
-              <p class="bottom">Already have an account?  <a class="bottom" href="{{url_for('login')}}"> Login here</a></p>
+              <button type="submit" class="signup-submit">Register</button>
+              <div class="signup-noaccount">
+              <p class="signup-text51">Already have an account?  <a class="signup-text53" href="{{url_for('login')}}"> Login</a></p>
+              </div>
             </form>
                 
                 <span class="signup-text47"><span>Get started</span></span>
                 <span class="signup-text49">
                   <span>Start your journey here by joining us!</span>
                 </span>
-                <div class="signup-noaccount">
-                  <span class="signup-text51"><span>Already have an account?</span></span>
-                  <a href="loginpage.html">
-                  <span class="signup-text53"><span>Log in</span></span>
-                  </a>
-                </div>
+                
               </div>
             </div>
           </div>
