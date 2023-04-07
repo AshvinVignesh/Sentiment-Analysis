@@ -764,3 +764,22 @@ html, body {
     margin-right: 0px;
     justify-content: center;
   }
+
+.alert-warning{
+  left: 285px;
+  top:600px;
+  color: rgb(255, 0, 0);
+  width: 550px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  
+}
